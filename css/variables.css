@@ -1,1 +1,11 @@
 /* colors */
+:root{
+    --main-color: #9c27b0;
+    --main-color-anti: #484848;
+    --secondary-color: #f4f5f8;
+    --secondary-color-anti: #484848;
+    --third-color: #ffffff;
+    --third-color-anti: #484848;
+    --fourth-color: #010004;
+    --fourth-color-anti: #bfbfbf;
+}

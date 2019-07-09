@@ -14,7 +14,7 @@ body * {
     width: 100%;
     /* background: red; */
 }
-.content {
+.row {
     display: inline-block;
     width: 1200px;
     margin: 100px calc((100% - 1200px)/2);
@@ -22,3 +22,4 @@ body * {
     text-align: center;
     /* background: blue; */
 }
+
