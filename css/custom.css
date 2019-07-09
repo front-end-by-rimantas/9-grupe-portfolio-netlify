@@ -1,1 +1,38 @@
 /* all other styles, style updates, etc */
+.bg-fourth-color{
+    background-color: var(--fourth-color);
+    color: var(--fourth-color-anti);
+}
+.bg-secondary-color{
+    background-color: var(--secondary-color);
+    color: var(--secondary-color-anti);
+}
+.bg-third-color{
+    background-color: var(--third-color);
+    color: var(--third-color-anti);
+}
+
+
+/* Hero */
+
+/* Header Nav BAr */
+
+/* About me */
+
+/* My skills */
+
+/* My resume */
+
+/* Achievements */
+
+/* My services */
+
+/* My portfolio */
+
+/* Testimonials */
+
+/* Latest Blog */
+
+/* Get in touch */
+
+/* Footer */

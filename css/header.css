@@ -1,5 +1,25 @@
 /* MENU bar */
+header { 
+    background-color: var(--fourth-color);
+    /* border: solid 1px red; */
+    position: fixed;
+}
 #hdr {
+    display: inline-block;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+    #hdr > .logo {
+        display: inline-block;
+        width: 165px;
+        padding: 5px 20px;
+        margin: 0;
+    }
+        #hdr > .logo > img {
+            height: 50px;
+        }
+    nav{
+        display: inline-block;
+        width: 1035px;
+        float: right;
+    }
