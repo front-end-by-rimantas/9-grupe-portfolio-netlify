@@ -1,41 +1,43 @@
 /* MENU bar */
-header { 
-    background-color: var(--fourth-color);
+header{ 
+    /* background-color: var(--fourth-color); */
     /* border: solid 1px red; */
+    /* background-color: transparent; */
     position: fixed;
+    z-index: 1;
 }
-#hdr {
+header > .row{
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-    #hdr > .logo {
+    header > .row > .logo{
         display: inline-block;
         float:left;
         width: 160px;
         padding: 5px 20px;
         margin: 0;
     }
-        #hdr > .logo > img {
+        header > .row > .logo > img {
            width: 100%;
         }
-    #hdr > nav{
+    header > .row > nav{
         display: inline-block;
         float: right;
         width: 500px;
         margin-top: 20px;
     }
-    #hdr > nav > a{
+    header > .row > nav > a{
         margin: 0 10px;
         line-height: 20px; 
         text-decoration: none;
         color: var(--fourth-color-anti); 
         transition: all 0.5s; 
     }
-        #hdr > nav > a:first-child{
+        header > .row > nav > a:first-child{
             color: var(--main-color);
         }
-        #hdr > nav > a:hover{
+        header > .row > nav > a:hover{
             color: var(--main-color);
         }
         
