@@ -11,15 +11,32 @@ header {
 }
     #hdr > .logo {
         display: inline-block;
-        width: 165px;
+        float:left;
+        width: 160px;
         padding: 5px 20px;
         margin: 0;
     }
         #hdr > .logo > img {
-            height: 50px;
+           width: 100%;
         }
-    nav{
+    #hdr > nav{
         display: inline-block;
-        width: 1035px;
         float: right;
+        width: 500px;
+        margin-top: 20px;
     }
+    #hdr > nav > a{
+        margin: 0 10px;
+        line-height: 20px; 
+        text-decoration: none;
+        color: var(--fourth-color-anti); 
+        transition: all 0.5s; 
+    }
+        #hdr > nav > a:first-child{
+            color: var(--main-color);
+        }
+        #hdr > nav > a:hover{
+            color: var(--main-color);
+        }
+        
+
