@@ -12,12 +12,12 @@ header {
     #hdr > .logo {
         display: inline-block;
         float:left;
-        width: 165px;
+        width: 160px;
         padding: 5px 20px;
         margin: 0;
     }
         #hdr > .logo > img {
-            height: 50px;
+           width: 100%;
         }
     #hdr > nav{
         display: inline-block;
@@ -38,4 +38,5 @@ header {
         #hdr > nav > a:hover{
             color: var(--main-color);
         }
+        
 
