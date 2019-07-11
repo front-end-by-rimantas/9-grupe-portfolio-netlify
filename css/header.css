@@ -24,7 +24,7 @@ header > .row{
     header > .row > nav{
         display: inline-block;
         float: right;
-        width: 500px;
+        width: calc(100% - 160px);
         margin-top: 20px;
     }
     header > .row > nav > a{

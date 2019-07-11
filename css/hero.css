@@ -14,7 +14,7 @@
     }
 #hero > h1{
     font-size: 60px;
-    line-height: 60px;
+    line-height: 80px;
     font-weight: 500;
     text-transform: uppercase;
     margin-top: 20px;
@@ -31,22 +31,21 @@ margin-top: 20px;
 }
 .social-icons{
     margin-top: 20px;
-
 }
-.social-icons > a{
-    color:var(--fourth-color-anti);
-    height: 30px;
-    width: 30px;
-    font-size: 14px;
-    line-height: 14px;
-    text-decoration: none;
-    padding: 8px;
-    margin: 5px;
-    border-radius: 50%;
-    background: rgba(0, 0, 0, 0.1);
-    transition: all 0.5s;
-    /* border: solid 1px red; */
-}
-    .social-icons > a:hover{
-        background-color: var(--main-color);
+    .social-icons > a{
+        color:var(--fourth-color-anti);
+        height: 30px;
+        width: 30px;
+        font-size: 14px;
+        line-height: 14px;
+        text-decoration: none;
+        padding: 8px;
+        margin: 5px;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.1);
+        transition: all 0.5s;
+        /* border: solid 1px red; */
     }
+        .social-icons > a:hover{
+            background-color: var(--main-color);
+        }

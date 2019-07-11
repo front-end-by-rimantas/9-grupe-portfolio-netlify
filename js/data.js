@@ -1,6 +1,28 @@
 "use strict";
 
 /* Hero */
+const heroIcons = [
+    {
+        icon: 'facebook',
+        link: '#'
+    },
+    {
+        icon: 'twitter',
+        link: '#'
+    },
+    {
+        icon: 'behance',
+        link: '#'
+    },
+    {
+        icon: 'instagram',
+        link: '#'
+    },
+    {
+        icon: 'dribbble',
+        link: '#'
+    },
+];
 
 /* Header Nav BAr */
 

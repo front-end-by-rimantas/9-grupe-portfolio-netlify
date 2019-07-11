@@ -1,6 +1,7 @@
 "use strict";
 
 /* Hero */
+document.querySelector('#hero .social-icons').innerHTML = createIcons( heroIcons );
 
 /* Header Nav BAr */
 
