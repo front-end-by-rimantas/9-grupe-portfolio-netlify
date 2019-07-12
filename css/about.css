@@ -4,7 +4,7 @@
 	text-align: justify;
 }
 
-.col {
+/* .col {
 	display: block;
     
    
@@ -20,8 +20,8 @@
   
 
 .col-70 {
-	width: 60%;
-}
+	width: 60%; */
+
   
 
 .about-btn-container {
@@ -58,9 +58,8 @@
 	padding: 15px;
 	border-radius: 30px;
 }
-
-.about-profile-img{
-    width: 100%;
+#about .col-4 img {
+    width: 380px;
 }
 .about-description {
 	padding: 0 30px;
