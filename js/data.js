@@ -29,6 +29,43 @@ const heroIcons = [
 /* About me */
 
 /* My skills */
+const softSkills = [
+    {
+        title: 'Web Design',
+        value: '53%'
+    },
+    {
+        title: 'UI/UX',
+        value: '14%'
+    },
+    {
+        title: 'Eating',
+        value: '100%'
+    },
+    {
+        title: 'Sleeping',
+        value: '86S%'
+    }
+]
+
+const hardSkills = [
+    {
+        title: 'Typing',
+        value: '16%'
+    },
+    {
+        title: 'Potating',
+        value: '59%'
+    },
+    {
+        title: 'Running',
+        value: '41%'
+    },
+    {
+        title: 'Gaming',
+        value: '99%'
+    }
+]
 
 /* My resume */
 
