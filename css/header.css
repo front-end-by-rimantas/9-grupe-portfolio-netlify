@@ -1,43 +1,47 @@
 /* MENU bar */
-header{ 
-    /* background-color: var(--fourth-color); */
-    /* border: solid 1px red; */
-    /* background-color: transparent; */
-    position: fixed;
-    z-index: 1;
+header > .container{
+    padding: 0;
 }
-header > .row{
+#hdr{
     display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    position: fixed;
+    float: left;
+    top: 0;
+    z-index: 1;
+    /* background-color: black; */
 }
-    header > .row > .logo{
+    #hdr .logo{
         display: inline-block;
         float:left;
-        width: 160px;
+        /* width: 160px; */
         padding: 5px 20px;
-        margin: 0;
     }
-        header > .row > .logo > img {
+        #hdr .logo > img {
            width: 100%;
         }
-    header > .row > nav{
+
+    #hdr > div:last-child{
+        margin-top: 5px;
+    }
+    #hdr nav{
         display: inline-block;
         float: right;
-        width: calc(100% - 160px);
-        margin-top: 20px;
+        /* height: 100%; */
+        /* width: calc(100% - 160px); */
+        margin: 15px 0;
     }
-    header > .row > nav > a{
+    #hdr nav a{
         margin: 0 10px;
+        width: 50px;
         line-height: 20px; 
         text-decoration: none;
         color: var(--fourth-color-anti); 
         transition: all 0.5s; 
     }
-        header > .row > nav > a:first-child{
+        #hdr nav a:first-child{
             color: var(--main-color);
         }
-        header > .row > nav > a:hover{
+        #hdr nav a:hover{
             color: var(--main-color);
         }
         
