@@ -7,10 +7,10 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/button.css">
     <link rel="stylesheet" href="css/progress-bar.css">
     <link rel="stylesheet" href="css/blocks.css">
-    <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/hero.css">
@@ -26,31 +26,25 @@
     <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
-    <div class="">
-
-        <header class="container bg-fourth-color">
-            <div class="row" id="hdr">
-                <div class="logo">
+    <header class="container">
+        <div class="row" id="hdr">
+                <div class="col-2 logo">
                     <img src="img/logo.png" alt="Logo">
-                </div>  
-                <nav>
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Services</a>
-                    <a href="#">Portfolio</a>
-                    <a href="#">Client</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Contact</a>
-                </nav>
-            </div>
-        </header>
-
-        <div class="container bg-fourth-color">
-            <div class="row" id="hero">
-               <h2>Welcome</h2> 
-               <h1>I AM JOHN DOE</h1>
-            </div>   
+                </div>
+                <div class="col-8 margin-l-2">
+                    <nav>
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Portfolio</a>
+                        <a href="#">Client</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Contact</a>
+                    </nav>
+                </div>
+            
         </div>
+<!-- <<<<<<< about-me-section -->
         
         <div class="container bg-third-color">
             <div class="row" id="about">
@@ -89,61 +83,106 @@
         
         <div class="container bg-secondary-color">
             <div class="row" id="skills">
+
+    </header>
+
+    <div class="container bg-fourth-color" id="hero-cont">
+        <div class="row" id="hero">
+            <div class="col-12">
+                <h2>Welcome</h2> 
+                <h1>I AM JOHN DOE</h1>
+                <p>random skill list</p>
+            </div>
+            <div class="col-12 social-icons">
+                <!-- <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-behance"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-dribbble"></a> -->
+            </div>
+        </div>   
+    </div>
+    
+    <div class="container bg-third-color">
+        <div class="row" id="about">
+            <div class="col-12">
+                <h3>ABOUT ME</h3>
+            </div>
+        </div>    
+    </div>
+    
+    <div class="container bg-secondary-color">
+        <div class="row" id="skills">
+            <div class="col-12">
+<!-- >>>>>>> develop -->
                 <h3>SKILLS</h3> 
-            </div> 
-        </div>
-        
-        <div class="container bg-third-color">
-            <div class="row" id="resume">
+            </div>
+        </div> 
+    </div>
+    
+    <div class="container bg-third-color">
+        <div class="row" id="resume">
+            <div class="col-12">
                 <h3>RESUME</h3> 
+            </div>
+        </div> 
+    </div>
+    
+    <div class="container bg-fourth-color">
+        <div class="row" id="achievements">
+            <div class="col-12">
+                <h3>ACHIEVEMENTS</h3>
             </div> 
-        </div>
-        
-        <div class="container bg-fourth-color">
-            <div class="row" id="achievements">
-                <h3>ACHIEVEMENTS</h3> 
-            </div> 
-        </div>
-        
-        <div class="container bg-secondary-color">
-            <div class="row" id="services">
+        </div> 
+    </div>
+    
+    <div class="container bg-secondary-color">
+        <div class="row" id="services">
+            <div class="col-12">
                 <h3>SERVICES</h3>
-            </div> 
-        </div>
-        
-        <div class="container bg-third-color">
-            <div class="row" id="portfolio">
+            </div>
+        </div> 
+    </div>
+    
+    <div class="container bg-third-color">
+        <div class="row" id="portfolio">
+            <div class="col-12">
                 <h3>PORTFOLIO </h3>
-            </div> 
-        </div>
-        
-        <div class="container bg-fourth-color" >
-            <div class="row" id="testimonials">
+            </div>
+        </div> 
+    </div>
+    
+    <div class="container bg-fourth-color" >
+        <div class="row" id="testimonials">
+            <div class="col-12">
                 <h3>TESTIMONIALS </h3>
-            </div> 
-        </div>
-        
-        <div class="container bg-third-color">
-            <div class="row" id="blog">
+            </div>
+        </div> 
+    </div>
+    
+    <div class="container bg-third-color">
+        <div class="row" id="blog">
+            <div class="col-12">
                 <h3>BLOG</h3> 
-            </div> 
-        </div>
-        
-        <div class="container bg-secondary-color">
-            <div class="row" id="contact">
+            </div>
+        </div> 
+    </div>
+    
+    <div class="container bg-secondary-color">
+        <div class="row" id="contact">
+            <div class="col-12">
                 <h3>GET IN TOUCH</h3> 
-            </div> 
-        </div>
-
-        <footer class="container bg-fourth-color">
-            <div class="row" id="ftr" >
-                <p>COPY RIGHT © BY A-SHAWKY 2017 | ALL RIGHTS RESERVED.</p>
-            </div> 
-        </footer>
-
+            </div>
+        </div> 
     </div>
 
-
+    <footer class="container bg-fourth-color">
+        <div class="row" id="ftr" >
+            <div class="col-12">
+                <p>COPY RIGHT © BY A-SHAWKY 2017 | ALL RIGHTS RESERVED.</p>
+            </div>
+        </div> 
+    </footer>
     
     <script src="js/data.js"></script>
     <script src="js/functions.js"></script>

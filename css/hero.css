@@ -1,18 +1,55 @@
 /* Hero */
+#hero-cont{
+    background: url(/img/header.png);
+    /* background-color: black; */
+    /* opacity: 0.5; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #hero {
     width: 100%;
     margin: 100px 0;
-}
-#hero > h1 {
-    font-size: 60px;
-    line-height: 60px;
-    font-weight: 500;
-    text-transform: uppercase;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    }
+    #hero > div{
+        margin-top: 0px;
+    }
+        #hero > div > h1{
+            font-size: 60px;
+            line-height: 80px;
+            font-weight: 500;
+            text-transform: uppercase;
+            margin-top: 20px;
+        }
+        #hero > div > h2{
+            font-size: 25px;
+            line-height: 25px;
+            font-weight: 200;
+            margin-top: 200px;
+            text-transform: uppercase;
+        }
+        #hero > div > p{
+        margin-top: 20px;
+        }
+#hero .social-icons{
     margin-top: 20px;
 }
-#hero > h2 {
-    font-size: 25px;
-    line-height: 25px;
-    font-weight: 200;
-    text-transform: uppercase;
-}
+        #hero .social-icons > a{
+        color:var(--fourth-color-anti);
+        height: 30px;
+        width: 30px;
+        font-size: 14px;
+        line-height: 14px;
+        text-decoration: none;
+        padding: 8px;
+        margin: 5px;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.1);
+        transition: all 0.5s;
+        /* border: solid 1px red; */
+    }
+        #hero .social-icons > a:hover{
+            background-color: var(--main-color);
+        }
