@@ -36,6 +36,39 @@ function myFunction(x) {
 /* About me */
 
 /* My skills */
+function progressBars( data ){
+    let HTML = '';
+
+    if ( !Array.isArray(data) ) {
+        console.error('Wrong data type. Has to be an array.');
+        return HTML;
+    }
+    if ( data.length === 0 ){
+        console.error('Wrong data size. Non-empty array needed.');
+        return HTML;
+    }
+
+    for ( let i=0; i<data.length; i++ ){
+        if ( typeof( data[i].title ) !== 'string' ||
+            typeof( data[i].value ) !== 'string' ||
+            data[i].title === '' ||
+            data[i].value.length === 0 ){
+            continue;
+        }
+        HTML += `<div class=" progress-bar">
+                    <div class="texts">
+                        <div class="title">${data[i].title}</div>
+                        <div class="value">${data[i].value}</div>
+                    </div>
+                    <div class="bar">
+                        <div class="value" style="width: ${data[i].value};">
+                            <div class="loading"></div>    
+                        </div>
+                    </div>
+                </div> `
+    }
+    return HTML;
+}
 
 /* My resume */
 

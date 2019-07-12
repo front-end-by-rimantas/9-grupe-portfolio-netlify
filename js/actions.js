@@ -8,6 +8,8 @@ document.querySelector('#hero .social-icons').innerHTML = createIcons( heroIcons
 /* About me */
 
 /* My skills */
+document.querySelector('#skills .softskills').innerHTML = progressBars( softSkills );
+document.querySelector('#skills .hardskills').innerHTML = progressBars( hardSkills );
 
 /* My resume */
 
