@@ -21,10 +21,8 @@ body * {
 
 div.container{
     display: inline-block;
-    float: left;
     width: 100%;
     padding: 40px 10px;
-    /* background-color: green; */
 }
     .container > .row{
         display: inline-block;
@@ -36,8 +34,6 @@ div.container{
         .container > .row > div{
             display: inline-block;
             float: left;
-            /* height: 100%; */
-            /* border: 1px solid red; */
             margin-left: var(--gap);
             margin-right: var(--gap);
         }
@@ -156,7 +152,7 @@ div.container{
             }
 
             .show {
-                display: inline-block;
+                display: inline-block !important;
             }
             .hidden {
                 display: none !important;
@@ -281,7 +277,7 @@ div.container{
         }
 
         .show-lg {
-            display: inline-block;
+            display: inline-block !important;
         }
         .hidden-lg {
             display: none !important;
@@ -408,7 +404,7 @@ div.container{
             }
 
             .show-md {
-                display: inline-block;
+                display: inline-block !important;
             }
             .hidden-md {
                 display: none !important;
@@ -535,7 +531,7 @@ div.container{
             }
 
             .show-sm {
-                display: inline-block;
+                display: inline-block !important;
             }
             .hidden-sm {
                 display: none !important;
@@ -662,16 +658,16 @@ div.container{
             }
 
             .show-xs {
-                display: inline-block;
+                display: inline-block !important;
             }
             .hidden-xs {
                 display: none !important;
             }
     }   
 
-    @media ( max-width: 650px ) {
+    @media ( max-width: 630px ) {
         .container > .row {
-            width: 450px;
+            width: 475px;
             margin: 0;
         }
 
@@ -789,7 +785,7 @@ div.container{
             }
 
             .show-micro {
-                display: inline-block;
+                display: inline-block !important;
             }
             .hidden-micro {
                 display: none !important;

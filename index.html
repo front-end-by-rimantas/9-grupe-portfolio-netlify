@@ -28,23 +28,26 @@
 <body>
     <header class="container">
         <div class="row" id="hdr">
-                <div class="col-2 logo">
-                    <img src="img/logo.png" alt="Logo">
-                </div>
-                <div class="col-8 margin-l-2">
-                    <nav>
-                        <a href="#">Home</a>
-                        <a href="#">About</a>
-                        <a href="#">Services</a>
-                        <a href="#">Portfolio</a>
-                        <a href="#">Client</a>
-                        <a href="#">Blog</a>
-                        <a href="#">Contact</a>
-                    </nav>
-                </div>
-            
+            <div class="col-2">
+                <img class="logo" src="img/logo.png" alt="Logo">
+            </div>
+            <div class="col-8 margin-l-2 hidden-sm">
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Portfolio</a>
+                    <a href="#">Client</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+            <div class="burger show-sm col-sm-2 margin-l-sm-8" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>            
         </div>
-
     </header>
 
     <div class="container bg-fourth-color" id="hero-cont">
@@ -68,11 +71,11 @@
         
     <div class="container bg-third-color">
         <div class="row" id="about">
-            <div class="col-4 margin-l-1 col-md-4">
+            <div class="col-4 margin-l-1  ">
                 <img class="about" src="img/john.jpg"/>
             </div>
             
-            <div class="col-6 margin-r-1 about-description col-md-8">
+            <div class="col-6 margin-r-1 about-description ">
                 <div class="header">
                     <h3><span>About</span> Me</h3>
                 </div>

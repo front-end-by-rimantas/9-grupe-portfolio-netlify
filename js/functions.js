@@ -31,6 +31,7 @@ function createIcons( data ){
 /* Header Nav BAr */
 function myFunction(x) {
     x.classList.toggle("change");
+}
 
 /* About me */
 
