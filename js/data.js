@@ -42,10 +42,10 @@ const softSkills = [
         title: 'Eating',
         value: '100%'
     },
-    {
-        title: 'Sleeping',
-        value: '86S%'
-    }
+    // {
+    //     title: 'Sleeping',
+    //     value: '86%'
+    // }
 ]
 
 const hardSkills = [
@@ -61,10 +61,10 @@ const hardSkills = [
         title: 'Running',
         value: '41%'
     },
-    {
-        title: 'Gaming',
-        value: '99%'
-    }
+    // {
+    //     title: 'Gaming',
+    //     value: '99%'
+    // }
 ]
 
 /* My resume */
