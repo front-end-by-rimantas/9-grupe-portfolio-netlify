@@ -86,7 +86,7 @@
     padding-bottom: 20px;
     list-style-type: disc;
 }
-.about-description h3:after {
+/* .about-description h3:after {
     content: '';
     position: absolute;
     left: 0; bottom: -7px;
@@ -102,4 +102,4 @@
     height: 1px;
     background-color:#f5f5f5;
     width: 80px;
-}
+} */
