@@ -42,10 +42,10 @@ const softSkills = [
         title: 'Eating',
         value: '100%'
     },
-    // {
-    //     title: 'Sleeping',
-    //     value: '86%'
-    // }
+    {
+        title: 'Sleeping',
+        value: '86%'
+    }
 ]
 
 const hardSkills = [
@@ -61,10 +61,10 @@ const hardSkills = [
         title: 'Running',
         value: '41%'
     },
-    // {
-    //     title: 'Gaming',
-    //     value: '99%'
-    // }
+    {
+        title: 'Gaming',
+        value: '99%'
+    }
 ]
 
 /* My resume */
@@ -72,6 +72,38 @@ const hardSkills = [
 /* Achievements */
 
 /* My services */
+const services = [
+    {
+        icon:'flower-alt',
+        service:'Branding',
+        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae dolorem ea aliquid? Iste, molestias esse.',
+    },
+    {
+        icon:'devices',
+        service:'web design',
+        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae dolorem ea aliquid? Iste, molestias esse.',
+    },
+    {
+        icon:'shopping-basket',
+        service:'Marketing',
+        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae dolorem ea aliquid? Iste, molestias esse.',
+    },
+    {
+        icon:'code-setting',
+        service:'Marketing',
+        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae dolorem ea aliquid? Iste, molestias esse.',
+    },
+    {
+        icon:'collection-item',
+        service:'Friendly to all Screens',
+        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae dolorem ea aliquid? Iste, molestias esse.',
+    },
+    {
+        icon:'compass',
+        service:'Unlimited support',
+        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae dolorem ea aliquid? Iste, molestias esse.',
+    }
+];
 
 /* My portfolio */
 

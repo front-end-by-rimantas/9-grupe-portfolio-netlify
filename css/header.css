@@ -11,26 +11,19 @@ header > .container{
     float: left;
     top: 0;
     z-index: 1;
-    /* background-color: black; */
+    display: flex;
+    align-items: center;
 }
     #hdr .logo{
         display: inline-block;
         float:left;
-        width: 140px;
+        width: 167px;
         padding: 5px 20px;
+        /* box-sizing: content-box; */
     }
-        /* #hdr .logo > img {
-           width: 100%;
-        } */
-/* 
-    #hdr > div:last-child{
-        margin-top: 5px;
-    } */
     #hdr nav{
         display: inline-block;
         float: right;
-        /* height: 100%; */
-        /* width: calc(100% - 160px); */
         margin: 15px 0;
     }
     #hdr nav a{

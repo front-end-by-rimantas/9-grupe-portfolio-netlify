@@ -1,1 +1,12 @@
 /* Services section */
+
+/* .allServices.col-12{
+    margin-left: 0;
+    margin-right: 0;
+} */
+    .aService{
+        display: inline-block;
+        float: left;
+        margin-left: var(--gap);
+        margin-right: var(--gap);
+    }

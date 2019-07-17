@@ -19,28 +19,6 @@ body * {
     font-size: 14px;  
 }
 
-h3 {
-    position: relative;
-    display: inline-block;
-    color: var(--fourth-color);
-    padding-bottom: 10px;
-    font-size: 30px;
-    line-height: 30px;
-    margin-bottom: 40px;
-    font-weight: 800;
-    text-transform: capitalize;
-    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid var(--fourth-color-anti);
-}
-    h3::before {
-        content: '';
-        width: 60px;
-        height: 1px;
-        background-color: var(--main-color);
-        position: absolute;
-        left: 0;
-        bottom: 0;
-    }
 
 div.container{
     display: inline-block;
@@ -61,116 +39,116 @@ div.container{
             margin-right: var(--gap);
         }
 
-            .container > .row > .col-1{
+            .container > .row .col-1{
                 width: calc( 100% / 12 * 1 - 2 * var(--gap) );
             }
-            .container > .row > .col-2{
+            .container > .row .col-2{
                 width: calc( 100% / 12 * 2 - 2 * var(--gap) );
             }
-            .container > .row > .col-3{
+            .container > .row .col-3{
                 width: calc( 100% / 12 * 3 - 2 * var(--gap) );
             }
-            .container > .row > .col-4{
+            .container > .row .col-4{
                 width: calc( 100% / 12 * 4 - 2 * var(--gap) );
             }
-            .container > .row > .col-5{
+            .container > .row .col-5{
                 width: calc( 100% / 12 * 5 - 2 * var(--gap) );
             }
-            .container > .row > .col-6{
+            .container > .row .col-6{
                 width: calc( 100% / 12 * 6 - 2 * var(--gap) );
             }
-            .container > .row > .col-7{
+            .container > .row .col-7{
                 width: calc( 100% / 12 * 7 - 2 * var(--gap) );
             }
-            .container > .row > .col-8{
+            .container > .row .col-8{
                 width: calc( 100% / 12 * 8 - 2 * var(--gap) );
             }
-            .container > .row > .col-9{
+            .container > .row .col-9{
                 width: calc( 100% / 12 * 9 - 2 * var(--gap) );
             }
-            .container > .row > .col-10{
+            .container > .row .col-10{
                 width: calc( 100% / 12 * 10 - 2 * var(--gap) );
             }
-            .container > .row > .col-11{
+            .container > .row .col-11{
                 width: calc( 100% / 12 * 11 - 2 * var(--gap) );
             }
-            .container > .row > .col-12{
+            .container > .row .col-12{
                 width: calc( 100% / 12 * 12 - 2 * var(--gap) );
             }
 
 
-            .container > .row > .margin-l-1{
+            .container > .row .margin-l-1{
                 margin-left: calc( 100% / 12 * 1 + var(--gap));
             }
-            .container > .row > .margin-l-2{
+            .container > .row .margin-l-2{
                 margin-left: calc( 100% / 12 * 2 + var(--gap));
             }
-            .container > .row > .margin-l-3{
+            .container > .row .margin-l-3{
                 margin-left: calc( 100% / 12 * 3 + var(--gap));
             }
-            .container > .row > .margin-l-4{
+            .container > .row .margin-l-4{
                 margin-left: calc( 100% / 12 * 4 + var(--gap));
             }
-            .container > .row > .margin-l-5{
+            .container > .row .margin-l-5{
                 margin-left: calc( 100% / 12 * 5 + var(--gap));
             }
-            .container > .row > .margin-l-6{
+            .container > .row .margin-l-6{
                 margin-left: calc( 100% / 12 * 6 + var(--gap));
             }
-            .container > .row > .margin-l-7{
+            .container > .row .margin-l-7{
                 margin-left: calc( 100% / 12 * 7 + var(--gap));
             }
-            .container > .row > .margin-l-8{
+            .container > .row .margin-l-8{
                 margin-left: calc( 100% / 12 * 8 + var(--gap));
             }
-            .container > .row > .margin-l-9{
+            .container > .row .margin-l-9{
                 margin-left: calc( 100% / 12 * 9 + var(--gap));
             }
-            .container > .row > .margin-l-10{
+            .container > .row .margin-l-10{
                 margin-left: calc( 100% / 12 * 10 + var(--gap));
             }
-            .container > .row > .margin-l-11{
+            .container > .row .margin-l-11{
                 margin-left: calc( 100% / 12 * 11 + var(--gap));
             }
-            .container > .row > .margin-l-12{
+            .container > .row .margin-l-12{
                 margin-left: calc( 100% / 12 * 12 + var(--gap));
             }
 
 
-            .container > .row > .margin-r-1{
+            .container > .row .margin-r-1{
                 margin-right: calc( 100% / 12 * 1 + var(--gap));
             }
-            .container > .row > .margin-r-2{
+            .container > .row .margin-r-2{
                 margin-right: calc( 100% / 12 * 2 + var(--gap));
             }
-            .container > .row > .margin-r-3{
+            .container > .row .margin-r-3{
                 margin-right: calc( 100% / 12 * 3 + var(--gap));
             }
-            .container > .row > .margin-r-4{
+            .container > .row .margin-r-4{
                 margin-right: calc( 100% / 12 * 4 + var(--gap));
             }
-            .container > .row > .margin-r-5{
+            .container > .row .margin-r-5{
                 margin-right: calc( 100% / 12 * 5 + var(--gap));
             }
-            .container > .row > .margin-r-6{
+            .container > .row .margin-r-6{
                 margin-right: calc( 100% / 12 * 6 + var(--gap));
             }
-            .container > .row > .margin-r-7{
+            .container > .row .margin-r-7{
                 margin-right: calc( 100% / 12 * 7 + var(--gap));
             }
-            .container > .row > .margin-r-8{
+            .container > .row .margin-r-8{
                 margin-right: calc( 100% / 12 * 8 + var(--gap));
             }
-            .container > .row > .margin-r-9{
+            .container > .row .margin-r-9{
                 margin-right: calc( 100% / 12 * 9 + var(--gap));
             }
-            .container > .row > .margin-r-10{
+            .container > .row .margin-r-10{
                 margin-right: calc( 100% / 12 * 10 + var(--gap));
             }
-            .container > .row > .margin-r-11{
+            .container > .row .margin-r-11{
                 margin-right: calc( 100% / 12 * 11 + var(--gap));
             }
-            .container > .row > .margin-r-12{
+            .container > .row .margin-r-12{
                 margin-right: calc( 100% / 12 * 12 + var(--gap));
             }
 
@@ -186,116 +164,116 @@ div.container{
             width: 1000px;
             margin: 0 calc((100% - 1000px) / 2);
         }
-        .container > .row > .col-lg-1{
+        .container > .row .col-lg-1{
             width: calc( 100% / 12 * 1 - 2 * var(--gap) );
         }
-        .container > .row > .col-lg-2{
+        .container > .row .col-lg-2{
             width: calc( 100% / 12 * 2 - 2 * var(--gap) );
         }
-        .container > .row > .col-lg-3{
+        .container > .row .col-lg-3{
             width: calc( 100% / 12 * 3 - 2 * var(--gap) );
         }
-        .container > .row > .col-lg-4{
+        .container > .row .col-lg-4{
             width: calc( 100% / 12 * 4 - 2 * var(--gap) );
         }
-        .container > .row > .col-lg-5{
+        .container > .row .col-lg-5{
             width: calc( 100% / 12 * 5 - 2 * var(--gap) );
         }
-        .container > .row > .col-lg-6{
+        .container > .row .col-lg-6{
             width: calc( 100% / 12 * 6 - 2 * var(--gap) );
         }
-        .container > .row > .col-lg-7{
+        .container > .row .col-lg-7{
             width: calc( 100% / 12 * 7 - 2 * var(--gap) );
         }
-        .container > .row > .col-lg-8{
+        .container > .row .col-lg-8{
             width: calc( 100% / 12 * 8 - 2 * var(--gap) );
         }
-        .container > .row > .col-lg-9{
+        .container > .row .col-lg-9{
             width: calc( 100% / 12 * 9 - 2 * var(--gap) );
         }
-        .container > .row > .col-lg-10{
+        .container > .row .col-lg-10{
             width: calc( 100% / 12 * 10 - 2 * var(--gap) );
         }
-        .container > .row > .col-lg-11{
+        .container > .row .col-lg-11{
             width: calc( 100% / 12 * 11 - 2 * var(--gap) );
         }
-        .container > .row > .col-lg-12{
+        .container > .row .col-lg-12{
             width: calc( 100% / 12 * 12 - 2 * var(--gap) );
         }
 
 
-        .container > .row > .margin-l-lg-1{
+        .container > .row .margin-l-lg-1{
             margin-left: calc( 100% / 12 * 1 + var(--gap));
         }
-        .container > .row > .margin-l-lg-2{
+        .container > .row .margin-l-lg-2{
             margin-left: calc( 100% / 12 * 2 + var(--gap));
         }
-        .container > .row > .margin-l-lg-3{
+        .container > .row .margin-l-lg-3{
             margin-left: calc( 100% / 12 * 3 + var(--gap));
         }
-        .container > .row > .margin-l-lg-4{
+        .container > .row .margin-l-lg-4{
             margin-left: calc( 100% / 12 * 4 + var(--gap));
         }
-        .container > .row > .margin-l-lg-5{
+        .container > .row .margin-l-lg-5{
             margin-left: calc( 100% / 12 * 5 + var(--gap));
         }
-        .container > .row > .margin-l-lg-6{
+        .container > .row .margin-l-lg-6{
             margin-left: calc( 100% / 12 * 6 + var(--gap));
         }
-        .container > .row > .margin-l-lg-7{
+        .container > .row .margin-l-lg-7{
             margin-left: calc( 100% / 12 * 7 + var(--gap));
         }
-        .container > .row > .margin-l-lg-8{
+        .container > .row .margin-l-lg-8{
             margin-left: calc( 100% / 12 * 8 + var(--gap));
         }
-        .container > .row > .margin-l-lg-9{
+        .container > .row .margin-l-lg-9{
             margin-left: calc( 100% / 12 * 9 + var(--gap));
         }
-        .container > .row > .margin-l-lg-10{
+        .container > .row .margin-l-lg-10{
             margin-left: calc( 100% / 12 * 10 + var(--gap));
         }
-        .container > .row > .margin-l-lg-11{
+        .container > .row .margin-l-lg-11{
             margin-left: calc( 100% / 12 * 11 + var(--gap));
         }
-        .container > .row > .margin-l-lg-12{
+        .container > .row .margin-l-lg-12{
             margin-left: calc( 100% / 12 * 12 + var(--gap));
         }
 
 
-        .container > .row > .margin-r-lg-1{
+        .container > .row .margin-r-lg-1{
             margin-right: calc( 100% / 12 * 1 + var(--gap));
         }
-        .container > .row > .margin-r-lg-2{
+        .container > .row .margin-r-lg-2{
             margin-right: calc( 100% / 12 * 2 + var(--gap));
         }
-        .container > .row > .margin-r-lg-3{
+        .container > .row .margin-r-lg-3{
             margin-right: calc( 100% / 12 * 3 + var(--gap));
         }
-        .container > .row > .margin-r-lg-4{
+        .container > .row .margin-r-lg-4{
             margin-right: calc( 100% / 12 * 4 + var(--gap));
         }
-        .container > .row > .margin-r-lg-5{
+        .container > .row .margin-r-lg-5{
             margin-right: calc( 100% / 12 * 5 + var(--gap));
         }
-        .container > .row > .margin-r-lg-6{
+        .container > .row .margin-r-lg-6{
             margin-right: calc( 100% / 12 * 6 + var(--gap));
         }
-        .container > .row > .margin-r-lg-7{
+        .container > .row .margin-r-lg-7{
             margin-right: calc( 100% / 12 * 7 + var(--gap));
         }
-        .container > .row > .margin-r-lg-8{
+        .container > .row .margin-r-lg-8{
             margin-right: calc( 100% / 12 * 8 + var(--gap));
         }
-        .container > .row > .margin-r-lg-9{
+        .container > .row .margin-r-lg-9{
             margin-right: calc( 100% / 12 * 9 + var(--gap));
         }
-        .container > .row > .margin-r-lg-10{
+        .container > .row .margin-r-lg-10{
             margin-right: calc( 100% / 12 * 10 + var(--gap));
         }
-        .container > .row > .margin-r-lg-11{
+        .container > .row .margin-r-lg-11{
             margin-right: calc( 100% / 12 * 11 + var(--gap));
         }
-        .container > .row > .margin-r-lg-12{
+        .container > .row .margin-r-lg-12{
             margin-right: calc( 100% / 12 * 12 + var(--gap));
         }
 
@@ -313,116 +291,116 @@ div.container{
             margin: 0 calc((100% - 800px) / 2);
         }
 
-            .container > .row > .col-md-1{
+            .container > .row .col-md-1{
                 width: calc( 100% / 12 * 1 - 2 * var(--gap) );
             }
-            .container > .row > .col-md-2{
+            .container > .row .col-md-2{
                 width: calc( 100% / 12 * 2 - 2 * var(--gap) );
             }
-            .container > .row > .col-md-3{
+            .container > .row .col-md-3{
                 width: calc( 100% / 12 * 3 - 2 * var(--gap) );
             }
-            .container > .row > .col-md-4{
+            .container > .row .col-md-4{
                 width: calc( 100% / 12 * 4 - 2 * var(--gap) );
             }
-            .container > .row > .col-md-5{
+            .container > .row .col-md-5{
                 width: calc( 100% / 12 * 5 - 2 * var(--gap) );
             }
-            .container > .row > .col-md-6{
+            .container > .row .col-md-6{
                 width: calc( 100% / 12 * 6 - 2 * var(--gap) );
             }
-            .container > .row > .col-md-7{
+            .container > .row .col-md-7{
                 width: calc( 100% / 12 * 7 - 2 * var(--gap) );
             }
-            .container > .row > .col-md-8{
+            .container > .row .col-md-8{
                 width: calc( 100% / 12 * 8 - 2 * var(--gap) );
             }
-            .container > .row > .col-md-9{
+            .container > .row .col-md-9{
                 width: calc( 100% / 12 * 9 - 2 * var(--gap) );
             }
-            .container > .row > .col-md-10{
+            .container > .row .col-md-10{
                 width: calc( 100% / 12 * 10 - 2 * var(--gap) );
             }
-            .container > .row > .col-md-11{
+            .container > .row .col-md-11{
                 width: calc( 100% / 12 * 11 - 2 * var(--gap) );
             }
-            .container > .row > .col-md-12{
+            .container > .row .col-md-12{
                 width: calc( 100% / 12 * 12 - 2 * var(--gap) );
             }
 
 
-            .container > .row > .margin-l-md-1{
+            .container > .row .margin-l-md-1{
                 margin-left: calc( 100% / 12 * 1 + var(--gap));
             }
-            .container > .row > .margin-l-md-2{
+            .container > .row .margin-l-md-2{
                 margin-left: calc( 100% / 12 * 2 + var(--gap));
             }
-            .container > .row > .margin-l-md-3{
+            .container > .row .margin-l-md-3{
                 margin-left: calc( 100% / 12 * 3 + var(--gap));
             }
-            .container > .row > .margin-l-md-4{
+            .container > .row .margin-l-md-4{
                 margin-left: calc( 100% / 12 * 4 + var(--gap));
             }
-            .container > .row > .margin-l-md-5{
+            .container > .row .margin-l-md-5{
                 margin-left: calc( 100% / 12 * 5 + var(--gap));
             }
-            .container > .row > .margin-l-md-6{
+            .container > .row .margin-l-md-6{
                 margin-left: calc( 100% / 12 * 6 + var(--gap));
             }
-            .container > .row > .margin-l-md-7{
+            .container > .row .margin-l-md-7{
                 margin-left: calc( 100% / 12 * 7 + var(--gap));
             }
-            .container > .row > .margin-l-md-8{
+            .container > .row .margin-l-md-8{
                 margin-left: calc( 100% / 12 * 8 + var(--gap));
             }
-            .container > .row > .margin-l-md-9{
+            .container > .row .margin-l-md-9{
                 margin-left: calc( 100% / 12 * 9 + var(--gap));
             }
-            .container > .row > .margin-l-md-10{
+            .container > .row .margin-l-md-10{
                 margin-left: calc( 100% / 12 * 10 + var(--gap));
             }
-            .container > .row > .margin-l-md-11{
+            .container > .row .margin-l-md-11{
                 margin-left: calc( 100% / 12 * 11 + var(--gap));
             }
-            .container > .row > .margin-l-md-12{
+            .container > .row .margin-l-md-12{
                 margin-left: calc( 100% / 12 * 12 + var(--gap));
             }
 
 
-            .container > .row > .margin-r-md-1{
+            .container > .row .margin-r-md-1{
                 margin-right: calc( 100% / 12 * 1 + var(--gap));
             }
-            .container > .row > .margin-r-md-2{
+            .container > .row .margin-r-md-2{
                 margin-right: calc( 100% / 12 * 2 + var(--gap));
             }
-            .container > .row > .margin-r-md-3{
+            .container > .row .margin-r-md-3{
                 margin-right: calc( 100% / 12 * 3 + var(--gap));
             }
-            .container > .row > .margin-r-md-4{
+            .container > .row .margin-r-md-4{
                 margin-right: calc( 100% / 12 * 4 + var(--gap));
             }
-            .container > .row > .margin-r-md-5{
+            .container > .row .margin-r-md-5{
                 margin-right: calc( 100% / 12 * 5 + var(--gap));
             }
-            .container > .row > .margin-r-md-6{
+            .container > .row .margin-r-md-6{
                 margin-right: calc( 100% / 12 * 6 + var(--gap));
             }
-            .container > .row > .margin-r-md-7{
+            .container > .row .margin-r-md-7{
                 margin-right: calc( 100% / 12 * 7 + var(--gap));
             }
-            .container > .row > .margin-r-md-8{
+            .container > .row .margin-r-md-8{
                 margin-right: calc( 100% / 12 * 8 + var(--gap));
             }
-            .container > .row > .margin-r-md-9{
+            .container > .row .margin-r-md-9{
                 margin-right: calc( 100% / 12 * 9 + var(--gap));
             }
-            .container > .row > .margin-r-md-10{
+            .container > .row .margin-r-md-10{
                 margin-right: calc( 100% / 12 * 10 + var(--gap));
             }
-            .container > .row > .margin-r-md-11{
+            .container > .row .margin-r-md-11{
                 margin-right: calc( 100% / 12 * 11 + var(--gap));
             }
-            .container > .row > .margin-r-md-12{
+            .container > .row .margin-r-md-12{
                 margin-right: calc( 100% / 12 * 12 + var(--gap));
             }
 
@@ -440,116 +418,116 @@ div.container{
             margin: 0 calc((100% - 600px) / 2);
         }
 
-            .container > .row > .col-sm-1{
+            .container > .row .col-sm-1{
                 width: calc( 100% / 12 * 1 - 2 * var(--gap) );
             }
-            .container > .row > .col-sm-2{
+            .container > .row .col-sm-2{
                 width: calc( 100% / 12 * 2 - 2 * var(--gap) );
             }
-            .container > .row > .col-sm-3{
+            .container > .row .col-sm-3{
                 width: calc( 100% / 12 * 3 - 2 * var(--gap) );
             }
-            .container > .row > .col-sm-4{
+            .container > .row .col-sm-4{
                 width: calc( 100% / 12 * 4 - 2 * var(--gap) );
             }
-            .container > .row > .col-sm-5{
+            .container > .row .col-sm-5{
                 width: calc( 100% / 12 * 5 - 2 * var(--gap) );
             }
-            .container > .row > .col-sm-6{
+            .container > .row .col-sm-6{
                 width: calc( 100% / 12 * 6 - 2 * var(--gap) );
             }
-            .container > .row > .col-sm-7{
+            .container > .row .col-sm-7{
                 width: calc( 100% / 12 * 7 - 2 * var(--gap) );
             }
-            .container > .row > .col-sm-8{
+            .container > .row .col-sm-8{
                 width: calc( 100% / 12 * 8 - 2 * var(--gap) );
             }
-            .container > .row > .col-sm-9{
+            .container > .row .col-sm-9{
                 width: calc( 100% / 12 * 9 - 2 * var(--gap) );
             }
-            .container > .row > .col-sm-10{
+            .container > .row .col-sm-10{
                 width: calc( 100% / 12 * 10 - 2 * var(--gap) );
             }
-            .container > .row > .col-sm-11{
+            .container > .row .col-sm-11{
                 width: calc( 100% / 12 * 11 - 2 * var(--gap) );
             }
-            .container > .row > .col-sm-12{
+            .container > .row .col-sm-12{
                 width: calc( 100% / 12 * 12 - 2 * var(--gap) );
             }
 
 
-            .container > .row > .margin-l-sm-1{
+            .container > .row .margin-l-sm-1{
                 margin-left: calc( 100% / 12 * 1 + var(--gap));
             }
-            .container > .row > .margin-l-sm-2{
+            .container > .row .margin-l-sm-2{
                 margin-left: calc( 100% / 12 * 2 + var(--gap));
             }
-            .container > .row > .margin-l-sm-3{
+            .container > .row .margin-l-sm-3{
                 margin-left: calc( 100% / 12 * 3 + var(--gap));
             }
-            .container > .row > .margin-l-sm-4{
+            .container > .row .margin-l-sm-4{
                 margin-left: calc( 100% / 12 * 4 + var(--gap));
             }
-            .container > .row > .margin-l-sm-5{
+            .container > .row .margin-l-sm-5{
                 margin-left: calc( 100% / 12 * 5 + var(--gap));
             }
-            .container > .row > .margin-l-sm-6{
+            .container > .row .margin-l-sm-6{
                 margin-left: calc( 100% / 12 * 6 + var(--gap));
             }
-            .container > .row > .margin-l-sm-7{
+            .container > .row .margin-l-sm-7{
                 margin-left: calc( 100% / 12 * 7 + var(--gap));
             }
-            .container > .row > .margin-l-sm-8{
+            .container > .row .margin-l-sm-8{
                 margin-left: calc( 100% / 12 * 8 + var(--gap));
             }
-            .container > .row > .margin-l-sm-9{
+            .container > .row .margin-l-sm-9{
                 margin-left: calc( 100% / 12 * 9 + var(--gap));
             }
-            .container > .row > .margin-l-sm-10{
+            .container > .row .margin-l-sm-10{
                 margin-left: calc( 100% / 12 * 10 + var(--gap));
             }
-            .container > .row > .margin-l-sm-11{
+            .container > .row .margin-l-sm-11{
                 margin-left: calc( 100% / 12 * 11 + var(--gap));
             }
-            .container > .row > .margin-l-sm-12{
+            .container > .row .margin-l-sm-12{
                 margin-left: calc( 100% / 12 * 12 + var(--gap));
             }
 
             
-            .container > .row > .margin-r-sm-1{
+            .container > .row .margin-r-sm-1{
                 margin-right: calc( 100% / 12 * 1 + var(--gap));
             }
-            .container > .row > .margin-r-sm-2{
+            .container > .row .margin-r-sm-2{
                 margin-right: calc( 100% / 12 * 2 + var(--gap));
             }
-            .container > .row > .margin-r-sm-3{
+            .container > .row .margin-r-sm-3{
                 margin-right: calc( 100% / 12 * 3 + var(--gap));
             }
-            .container > .row > .margin-r-sm-4{
+            .container > .row .margin-r-sm-4{
                 margin-right: calc( 100% / 12 * 4 + var(--gap));
             }
-            .container > .row > .margin-r-sm-5{
+            .container > .row .margin-r-sm-5{
                 margin-right: calc( 100% / 12 * 5 + var(--gap));
             }
-            .container > .row > .margin-r-sm-6{
+            .container > .row .margin-r-sm-6{
                 margin-right: calc( 100% / 12 * 6 + var(--gap));
             }
-            .container > .row > .margin-r-sm-7{
+            .container > .row .margin-r-sm-7{
                 margin-right: calc( 100% / 12 * 7 + var(--gap));
             }
-            .container > .row > .margin-r-sm-8{
+            .container > .row .margin-r-sm-8{
                 margin-right: calc( 100% / 12 * 8 + var(--gap));
             }
-            .container > .row > .margin-r-sm-9{
+            .container > .row .margin-r-sm-9{
                 margin-right: calc( 100% / 12 * 9 + var(--gap));
             }
-            .container > .row > .margin-r-sm-10{
+            .container > .row .margin-r-sm-10{
                 margin-right: calc( 100% / 12 * 10 + var(--gap));
             }
-            .container > .row > .margin-r-sm-11{
+            .container > .row .margin-r-sm-11{
                 margin-right: calc( 100% / 12 * 11 + var(--gap));
             }
-            .container > .row > .margin-r-sm-12{
+            .container > .row .margin-r-sm-12{
                 margin-right: calc( 100% / 12 * 12 + var(--gap));
             }
 
@@ -567,116 +545,116 @@ div.container{
             margin: 0;
         }
 
-            .container > .row > .col-xs-1{
+            .container > .row .col-xs-1{
                 width: calc( 100% / 12 * 1 - 2 * var(--gap) );
             }
-            .container > .row > .col-xs-2{
+            .container > .row .col-xs-2{
                 width: calc( 100% / 12 * 2 - 2 * var(--gap) );
             }
-            .container > .row > .col-xs-3{
+            .container > .row .col-xs-3{
                 width: calc( 100% / 12 * 3 - 2 * var(--gap) );
             }
-            .container > .row > .col-xs-4{
+            .container > .row .col-xs-4{
                 width: calc( 100% / 12 * 4 - 2 * var(--gap) );
             }
-            .container > .row > .col-xs-5{
+            .container > .row .col-xs-5{
                 width: calc( 100% / 12 * 5 - 2 * var(--gap) );
             }
-            .container > .row > .col-xs-6{
+            .container > .row .col-xs-6{
                 width: calc( 100% / 12 * 6 - 2 * var(--gap) );
             }
-            .container > .row > .col-xs-7{
+            .container > .row .col-xs-7{
                 width: calc( 100% / 12 * 7 - 2 * var(--gap) );
             }
-            .container > .row > .col-xs-8{
+            .container > .row .col-xs-8{
                 width: calc( 100% / 12 * 8 - 2 * var(--gap) );
             }
-            .container > .row > .col-xs-9{
+            .container > .row .col-xs-9{
                 width: calc( 100% / 12 * 9 - 2 * var(--gap) );
             }
-            .container > .row > .col-xs-10{
+            .container > .row .col-xs-10{
                 width: calc( 100% / 12 * 10 - 2 * var(--gap) );
             }
-            .container > .row > .col-xs-11{
+            .container > .row .col-xs-11{
                 width: calc( 100% / 12 * 11 - 2 * var(--gap) );
             }
-            .container > .row > .col-xs-12{
+            .container > .row .col-xs-12{
                 width: calc( 100% / 12 * 12 - 2 * var(--gap) );
             }
 
 
-            .container > .row > .margin-l-xs-1{
+            .container > .row .margin-l-xs-1{
                 margin-left: calc( 100% / 12 * 1 + var(--gap));
             }
-            .container > .row > .margin-l-xs-2{
+            .container > .row .margin-l-xs-2{
                 margin-left: calc( 100% / 12 * 2 + var(--gap));
             }
-            .container > .row > .margin-l-xs-3{
+            .container > .row .margin-l-xs-3{
                 margin-left: calc( 100% / 12 * 3 + var(--gap));
             }
-            .container > .row > .margin-l-xs-4{
+            .container > .row .margin-l-xs-4{
                 margin-left: calc( 100% / 12 * 4 + var(--gap));
             }
-            .container > .row > .margin-l-xs-5{
+            .container > .row .margin-l-xs-5{
                 margin-left: calc( 100% / 12 * 5 + var(--gap));
             }
-            .container > .row > .margin-l-xs-6{
+            .container > .row .margin-l-xs-6{
                 margin-left: calc( 100% / 12 * 6 + var(--gap));
             }
-            .container > .row > .margin-l-xs-7{
+            .container > .row .margin-l-xs-7{
                 margin-left: calc( 100% / 12 * 7 + var(--gap));
             }
-            .container > .row > .margin-l-xs-8{
+            .container > .row .margin-l-xs-8{
                 margin-left: calc( 100% / 12 * 8 + var(--gap));
             }
-            .container > .row > .margin-l-xs-9{
+            .container > .row .margin-l-xs-9{
                 margin-left: calc( 100% / 12 * 9 + var(--gap));
             }
-            .container > .row > .margin-l-xs-10{
+            .container > .row .margin-l-xs-10{
                 margin-left: calc( 100% / 12 * 10 + var(--gap));
             }
-            .container > .row > .margin-l-xs-11{
+            .container > .row .margin-l-xs-11{
                 margin-left: calc( 100% / 12 * 11 + var(--gap));
             }
-            .container > .row > .margin-l-xs-12{
+            .container > .row .margin-l-xs-12{
                 margin-left: calc( 100% / 12 * 12 + var(--gap));
             }
 
             
-            .container > .row > .margin-r-xs-1{
+            .container > .row .margin-r-xs-1{
                 margin-right: calc( 100% / 12 * 1 + var(--gap));
             }
-            .container > .row > .margin-r-xs-2{
+            .container > .row .margin-r-xs-2{
                 margin-right: calc( 100% / 12 * 2 + var(--gap));
             }
-            .container > .row > .margin-r-xs-3{
+            .container > .row .margin-r-xs-3{
                 margin-right: calc( 100% / 12 * 3 + var(--gap));
             }
-            .container > .row > .margin-r-xs-4{
+            .container > .row .margin-r-xs-4{
                 margin-right: calc( 100% / 12 * 4 + var(--gap));
             }
-            .container > .row > .margin-r-xs-5{
+            .container > .row .margin-r-xs-5{
                 margin-right: calc( 100% / 12 * 5 + var(--gap));
             }
-            .container > .row > .margin-r-xs-6{
+            .container > .row .margin-r-xs-6{
                 margin-right: calc( 100% / 12 * 6 + var(--gap));
             }
-            .container > .row > .margin-r-xs-7{
+            .container > .row .margin-r-xs-7{
                 margin-right: calc( 100% / 12 * 7 + var(--gap));
             }
-            .container > .row > .margin-r-xs-8{
+            .container > .row .margin-r-xs-8{
                 margin-right: calc( 100% / 12 * 8 + var(--gap));
             }
-            .container > .row > .margin-r-xs-9{
+            .container > .row .margin-r-xs-9{
                 margin-right: calc( 100% / 12 * 9 + var(--gap));
             }
-            .container > .row > .margin-r-xs-10{
+            .container > .row .margin-r-xs-10{
                 margin-right: calc( 100% / 12 * 10 + var(--gap));
             }
-            .container > .row > .margin-r-xs-11{
+            .container > .row .margin-r-xs-11{
                 margin-right: calc( 100% / 12 * 11 + var(--gap));
             }
-            .container > .row > .margin-r-xs-12{
+            .container > .row .margin-r-xs-12{
                 margin-right: calc( 100% / 12 * 12 + var(--gap));
             }
 
@@ -694,116 +672,116 @@ div.container{
             margin: 0;
         }
 
-            .container > .row > .col-micro-1{
+            .container > .row .col-micro-1{
                 width: calc( 100% / 12 * 1 - 2 * var(--gap) );
             }
-            .container > .row > .col-micro-2{
+            .container > .row .col-micro-2{
                 width: calc( 100% / 12 * 2 - 2 * var(--gap) );
             }
-            .container > .row > .col-micro-3{
+            .container > .row .col-micro-3{
                 width: calc( 100% / 12 * 3 - 2 * var(--gap) );
             }
-            .container > .row > .col-micro-4{
+            .container > .row .col-micro-4{
                 width: calc( 100% / 12 * 4 - 2 * var(--gap) );
             }
-            .container > .row > .col-micro-5{
+            .container > .row .col-micro-5{
                 width: calc( 100% / 12 * 5 - 2 * var(--gap) );
             }
-            .container > .row > .col-micro-6{
+            .container > .row .col-micro-6{
                 width: calc( 100% / 12 * 6 - 2 * var(--gap) );
             }
-            .container > .row > .col-micro-7{
+            .container > .row .col-micro-7{
                 width: calc( 100% / 12 * 7 - 2 * var(--gap) );
             }
-            .container > .row > .col-micro-8{
+            .container > .row .col-micro-8{
                 width: calc( 100% / 12 * 8 - 2 * var(--gap) );
             }
-            .container > .row > .col-micro-9{
+            .container > .row .col-micro-9{
                 width: calc( 100% / 12 * 9 - 2 * var(--gap) );
             }
-            .container > .row > .col-micro-10{
+            .container > .row .col-micro-10{
                 width: calc( 100% / 12 * 10 - 2 * var(--gap) );
             }
-            .container > .row > .col-micro-11{
+            .container > .row .col-micro-11{
                 width: calc( 100% / 12 * 11 - 2 * var(--gap) );
             }
-            .container > .row > .col-micro-12{
+            .container > .row .col-micro-12{
                 width: calc( 100% / 12 * 12 - 2 * var(--gap) );
             }
 
 
-            .container > .row > .margin-l-micro-1{
+            .container > .row .margin-l-micro-1{
                 margin-left: calc( 100% / 12 * 1 + var(--gap));
             }
-            .container > .row > .margin-l-micro-2{
+            .container > .row .margin-l-micro-2{
                 margin-left: calc( 100% / 12 * 2 + var(--gap));
             }
-            .container > .row > .margin-l-micro-3{
+            .container > .row .margin-l-micro-3{
                 margin-left: calc( 100% / 12 * 3 + var(--gap));
             }
-            .container > .row > .margin-l-micro-4{
+            .container > .row .margin-l-micro-4{
                 margin-left: calc( 100% / 12 * 4 + var(--gap));
             }
-            .container > .row > .margin-l-micro-5{
+            .container > .row .margin-l-micro-5{
                 margin-left: calc( 100% / 12 * 5 + var(--gap));
             }
-            .container > .row > .margin-l-micro-6{
+            .container > .row .margin-l-micro-6{
                 margin-left: calc( 100% / 12 * 6 + var(--gap));
             }
-            .container > .row > .margin-l-micro-7{
+            .container > .row .margin-l-micro-7{
                 margin-left: calc( 100% / 12 * 7 + var(--gap));
             }
-            .container > .row > .margin-l-micro-8{
+            .container > .row .margin-l-micro-8{
                 margin-left: calc( 100% / 12 * 8 + var(--gap));
             }
-            .container > .row > .margin-l-micro-9{
+            .container > .row .margin-l-micro-9{
                 margin-left: calc( 100% / 12 * 9 + var(--gap));
             }
-            .container > .row > .margin-l-micro-10{
+            .container > .row .margin-l-micro-10{
                 margin-left: calc( 100% / 12 * 10 + var(--gap));
             }
-            .container > .row > .margin-l-micro-11{
+            .container > .row .margin-l-micro-11{
                 margin-left: calc( 100% / 12 * 11 + var(--gap));
             }
-            .container > .row > .margin-l-micro-12{
+            .container > .row .margin-l-micro-12{
                 margin-left: calc( 100% / 12 * 12 + var(--gap));
             }
 
             
-            .container > .row > .margin-r-micro-1{
+            .container > .row .margin-r-micro-1{
                 margin-right: calc( 100% / 12 * 1 + var(--gap));
             }
-            .container > .row > .margin-r-micro-2{
+            .container > .row .margin-r-micro-2{
                 margin-right: calc( 100% / 12 * 2 + var(--gap));
             }
-            .container > .row > .margin-r-micro-3{
+            .container > .row .margin-r-micro-3{
                 margin-right: calc( 100% / 12 * 3 + var(--gap));
             }
-            .container > .row > .margin-r-micro-4{
+            .container > .row .margin-r-micro-4{
                 margin-right: calc( 100% / 12 * 4 + var(--gap));
             }
-            .container > .row > .margin-r-micro-5{
+            .container > .row .margin-r-micro-5{
                 margin-right: calc( 100% / 12 * 5 + var(--gap));
             }
-            .container > .row > .margin-r-micro-6{
+            .container > .row .margin-r-micro-6{
                 margin-right: calc( 100% / 12 * 6 + var(--gap));
             }
-            .container > .row > .margin-r-micro-7{
+            .container > .row .margin-r-micro-7{
                 margin-right: calc( 100% / 12 * 7 + var(--gap));
             }
-            .container > .row > .margin-r-micro-8{
+            .container > .row .margin-r-micro-8{
                 margin-right: calc( 100% / 12 * 8 + var(--gap));
             }
-            .container > .row > .margin-r-micro-9{
+            .container > .row .margin-r-micro-9{
                 margin-right: calc( 100% / 12 * 9 + var(--gap));
             }
-            .container > .row > .margin-r-micro-10{
+            .container > .row .margin-r-micro-10{
                 margin-right: calc( 100% / 12 * 10 + var(--gap));
             }
-            .container > .row > .margin-r-micro-11{
+            .container > .row .margin-r-micro-11{
                 margin-right: calc( 100% / 12 * 11 + var(--gap));
             }
-            .container > .row > .margin-r-micro-12{
+            .container > .row .margin-r-micro-12{
                 margin-right: calc( 100% / 12 * 12 + var(--gap));
             }
 
