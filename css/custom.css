@@ -12,6 +12,35 @@
     color: var(--third-color-anti);
 }
 
+h3 {
+    position: relative;
+    display: inline-block;
+    color: var(--fourth-color);
+    padding-bottom: 10px;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid var(--fourth-color-anti);
+}
+    h3 > span{
+        color: var(--main-color);
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 400; 
+    }
+    h3::before {
+        content: '';
+        width: 60px;
+        height: 1px;
+        background-color: var(--main-color);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    
 
 /* Hero */
 
