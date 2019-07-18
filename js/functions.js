@@ -76,7 +76,7 @@ function progressBars( data ){
 
 /* My services */
 function createServices( data ){
-    let HTML = '';
+    let HTML = '';  
 
     if ( !Array.isArray(data) ) {
         console.error('Wrong data type. Has to be an array.');
@@ -96,7 +96,7 @@ function createServices( data ){
             data[i].description.length === 0 ){
             continue;
     }
-        HTML += `<div class="aService col-4">
+        HTML += `<div class="aService col-4 col-md-6 col-xs-12">
                     <i class="zmdi zmdi-${data[i].icon}"></i>
                     <h4>${data[i].service}</h4>
                     <p>${data[i].description}</p>

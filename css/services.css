@@ -1,12 +1,44 @@
 /* Services section */
 
-/* .allServices.col-12{
-    margin-left: 0;
-    margin-right: 0;
-} */
-    .aService{
-        display: inline-block;
-        float: left;
-        margin-left: var(--gap);
-        margin-right: var(--gap);
+#services  h3{
+    margin-bottom: 30px;
+}
+.aService > i{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+    line-height: 60px;
+    border-radius: 50%;
+    padding-top: 5px;
+    color: var(--main-color);
+    margin-top: 20px;
+}
+    .aService > i:hover{
+        background-color: var(--main-color);
+        color: var( --fourth-color-anti);
+        transition: 0.8s;
     }
+    
+.aService > h4{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    font-size: 25px;
+    line-height: 25px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-top: 10px;
+    
+}
+.aService > p{
+    display: inline-block;
+    float: left;
+    width:100%;
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 28px;
+
+    
+}
+

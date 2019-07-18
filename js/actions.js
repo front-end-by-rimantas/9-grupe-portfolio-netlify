@@ -16,7 +16,7 @@ document.querySelector('#skills .hardskills').innerHTML = progressBars( hardSkil
 /* Achievements */
 
 /* My services */
-document.querySelector('#services .allServices').innerHTML = createServices( services );
+document.querySelector('.allServices.row').innerHTML = createServices( services );
 /* My portfolio */
 
 /* Testimonials */
