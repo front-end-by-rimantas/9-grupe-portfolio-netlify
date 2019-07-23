@@ -35,12 +35,12 @@
             <div class="col-10 hidden-sm">
                 <nav>
                     <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Services</a>
-                    <a href="#">Portfolio</a>
-                    <a href="#">Client</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Contact</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#testimonials">Client</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contact">Contact</a>
                 </nav>
             </div>
             <div class="burger show-sm col-sm-2 margin-l-sm-8" onclick="myFunction(this)">
@@ -144,7 +144,7 @@
     </div>
     
     <div class="container bg-fourth-color" >
-        <div class="row" id="testimonials">
+        <div class="row" id="   ">
             <div class="col-12">
                 <p>testimonials</p>
             </div>
@@ -161,12 +161,50 @@
     
     <div class="container bg-secondary-color">
         <div class="row" id="contact">
-            <div class="col-12">
-                <h3> <span>Get</span> in touch </h3> 
+            <div class=" full-form col-7">
+                <h3> <span>Get</span> in touch </h3>
+                <form>
+                    <div class="form-group">
+                        <label for="username"><i class="zmdi zmdi-account contact-logo"></i></label>
+                        <input id="username" type="name" name="name" placeholder="Your full name here">
+                    </div>
+                    <div class="form-group">
+                        <label for="email"><i class="zmdi zmdi-email contact-logo"></i></label>
+                        <input id="email" type="email"  name="email" placeholder="Your email address">
+                    </div>
+                    <div class="form-group">
+                        <label for="message"><i class="zmdi zmdi-comment contact-logo"></i></label>  
+                        <textarea  id="message" rows="4" type="text" name="message" placeholder="Your message here"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <div class="button button-purple">
+                            Send Message
+                        </div>
+                    </div>
+
+                </form> 
+            </div>
+            <div class="contact-background ">
+                <div class="all-info" >
+                    <h4>Contact info.</h4>
+                    <p>Lorem ipsum dolor sit amet con nihil non voluptates  quidem enim alias non dolores esse impedit? ctetur adipisicing elit. Quas aut quae officiis obcaecati ullam sapiente!</p>                
+                    <div class="one-row">
+                        <i class=" logo zmdi zmdi-headset-mic"></i>
+                        <div class="info">+00123456789</div>
+                    </div>
+                    <div class="one-row">
+                        <i class="logo zmdi zmdi-mail-send"></i>
+                        <div class="info">DEMO@GMAIL.COM</div>
+                    </div>
+                    <div class="one-row">
+                        <i class="logo zmdi zmdi-pin"></i>
+                        <div class="info">3481 MELROSE PLACE, LOS ANGELES</div>
+                    </div>               
+                </div>
             </div>
         </div> 
     </div>
-
+        
     <footer class="container ftr-body" >
         <div class="row"  >
             <div class="col-12">
@@ -179,4 +217,4 @@
     <script src="js/functions.js"></script>
     <script src="js/actions.js"></script>
 </body>
-</html>S
+</html>

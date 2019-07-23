@@ -1,6 +1,7 @@
 /* colors */
 :root{
     --main-color: #9c27b0;
+    --main-color-trans:#9c27b080;
     --main-color-anti: #484848;
     --secondary-color: #f4f5f8;
     --secondary-color-anti: #484848;
@@ -8,4 +9,5 @@
     --third-color-anti: #484848;
     --fourth-color: #010004;
     --fourth-color-anti: #ffffff;
+    --text-area-lables: #e9ecef;
 }
