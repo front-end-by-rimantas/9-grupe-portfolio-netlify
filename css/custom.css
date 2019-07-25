@@ -1,1 +1,67 @@
 /* all other styles, style updates, etc */
+.bg-fourth-color{
+    background-color: var(--fourth-color);
+    color: var(--fourth-color-anti);
+}
+.bg-secondary-color{
+    background-color: var(--secondary-color);
+    color: var(--secondary-color-anti);
+}
+.bg-third-color{
+    background-color: var(--third-color);
+    color: var(--third-color-anti);
+}
+
+h3 {
+    position: relative;
+    display: inline-block;
+    color: var(--fourth-color);
+    padding-bottom: 10px;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 60px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid var(--fourth-color-anti);
+}
+    h3 > span{
+        color: var(--main-color);
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 400; 
+    }
+    h3::before {
+        content: '';
+        width: 60px;
+        height: 1px;
+        background-color: var(--main-color);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    
+
+/* Hero */
+
+/* Header Nav BAr */
+
+/* About me */
+
+/* My skills */
+
+/* My resume */
+
+/* Achievements */
+
+/* My services */
+
+/* My portfolio */
+
+/* Testimonials */
+
+/* Latest Blog */
+
+/* Get in touch */
+
+/* Footer */

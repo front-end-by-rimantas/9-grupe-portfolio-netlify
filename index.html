@@ -5,22 +5,235 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/button.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/blocks.css">
-    <link rel="stylesheet" href="css/clients.css">
     <link rel="stylesheet" href="css/progress-bar.css">
-    <link rel="stylesheet" href="css/work-gallery.css">
-    <link rel="stylesheet" href="css/job-history.css">
-    <link rel="stylesheet" href="css/testimonials.css">
+    <link rel="stylesheet" href="css/blocks.css">
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/resume.css">
+    <link rel="stylesheet" href="css/achievements.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/testimonials.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
-    Portfolio
+    <header class="container">
+        <div class="row" id="hdr">
+            <div class="col-2">
+                <img class="logo" src="img/logo.png" alt="Logo">
+            </div>
+            <div class="col-10 hidden-sm">
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#testimonials">Client</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+            <div class="burger show-sm col-sm-2 margin-l-sm-8" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>            
+        </div>
+    </header>
 
+    <div class="container bg-fourth-color" id="hero-cont">
+        <div class="row" id="hero">
+            <div class="col-12">
+                <h2>Welcome</h2> 
+                <h1>I AM JOHN DOE</h1>
+                <p>random skill list</p>
+            </div>
+            <div class="col-12 social-icons">
+                <!-- <a href="#" class="fa fa-facebook"></a>                -->
+            </div>
+        </div>   
+    </div>
+    
+   
+        
+    <div class="container bg-third-color">
+        <div class="row" id="about">
+            <div class="col-4 margin-l-1  ">
+                <img class="about" src="img/john.jpg"/>
+            </div>
+            
+            <div class="col-6 margin-r-1 about-description ">
+                <div class="header">
+                    <h3><span>About</span> Me</h3>
+                </div>
+                <p class="about-under-title">I AM A UI/UX DESIGNER AND A HUMAN</p>
+                <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                
+                <div class="about-credentials-container">
+                    <ul>
+                        <li><b>NAME :</b> John Doe</li>
+                        <li><b>AGE :</b> 27</li>
+                    </ul>
+                    
+                    <ul>
+                        <li><b>Email:</b>John_Doe@Gmail.com</li>
+                        <li><b>LOCATION:</b>Los Angeles, USA</li>
+                    </ul>
+                    
+                </div>
+                
+                <div class="about-btn-container">
+                    <a href="#"><button class="button button-purple">Download resume</button></a>
+                    <a href="#"><button class="button button-purple">Hire me</button></a>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+    <div class="container bg-secondary-color">
+        <div class="row" id="skills">
+            <div class="col-12">
+                <h3> <span>My</span> skills</h3>
+            </div>  
+                <div class="softskills col-6 col-sm-12"></div>   
+                <div class="hardskills col-6 col-sm-12 "></div>      
+        </div> 
+    </div>
+    
+    <div class="container bg-third-color">
+        <div class="row" id="resume">
+            <div class="col-12">
+                <h3> <span>My</span> resume</h3> 
+            </div>
+        </div> 
+    </div>
+    
+    <div class="achievements" id="achievements">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div>
+                        <div class="fa fa-heart"></div>
+                        <p class="count">738</p>
+                        <p class="text">Happy clients</p>
+                    </div>
+                    <div>
+                        <div class="fa fa-check-square"></div>
+                        <p class="count">102</p>
+                        <p class="text">Successful Projects</p>
+                    </div>
+                    <div>
+                        <div class="fa fa-trophy"></div>
+                        <p class="count">06</p>
+                        <p class="text">Awards Received</p>
+                        </div>
+                    <div>
+                        <div class="fa fa-coffee"></div>
+                        <p class="count">511</p>
+                        <p class="text">Cups of tea</p>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+    <div>
+    
+    <div class="container bg-secondary-color">
+        <div class="row" id="services">
+            <div class="col-12">
+                <h3> <span>My</span> services </h3>
+            </div>
+        </div> 
+        <div class="allServices row"></div>
+    </div>
+    
+    <div class="container bg-third-color">
+        <div class="row" id="portfolio">
+            <div class="col-12">
+                <h3> <span>My</span> Portfolio  </h3>
+            </div>
+        </div> 
+    </div>
+    
+    <div class="container bg-fourth-color" >
+        <div class="row" id="   ">
+            <div class="col-12">
+                <p>testimonials</p>
+            </div>
+        </div> 
+    </div>
+    
+    <div class="container bg-third-color">
+        <div class="row" id="blog">
+            <div class="col-12">
+                <h3> <span>Latest</span> blog </h3> 
+            </div>
+        </div> 
+    </div>
+    
+    <div class="container bg-secondary-color">
+        <div class="row" id="contact">
+            <div class=" full-form col-7">
+                <h3> <span>Get</span> in touch </h3>
+                <form>
+                    <div class="form-group">
+                        <label for="username"><i class="zmdi zmdi-account contact-logo"></i></label>
+                        <input id="username" type="name" name="name" placeholder="Your full name here">
+                    </div>
+                    <div class="form-group">
+                        <label for="email"><i class="zmdi zmdi-email contact-logo"></i></label>
+                        <input id="email" type="email"  name="email" placeholder="Your email address">
+                    </div>
+                    <div class="form-group">
+                        <label for="message"><i class="zmdi zmdi-comment contact-logo"></i></label>  
+                        <textarea  id="message" rows="4" type="text" name="message" placeholder="Your message here"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <div class="button button-purple">
+                            Send Message
+                        </div>
+                    </div>
+
+                </form> 
+            </div>
+            <div class="contact-background ">
+                <div class="all-info" >
+                    <h4>Contact info.</h4>
+                    <p>Lorem ipsum dolor sit amet con nihil non voluptates  quidem enim alias non dolores esse impedit? ctetur adipisicing elit. Quas aut quae officiis obcaecati ullam sapiente!</p>                
+                    <div class="one-row">
+                        <i class=" logo zmdi zmdi-headset-mic"></i>
+                        <div class="info">+00123456789</div>
+                    </div>
+                    <div class="one-row">
+                        <i class="logo zmdi zmdi-mail-send"></i>
+                        <div class="info">DEMO@GMAIL.COM</div>
+                    </div>
+                    <div class="one-row">
+                        <i class="logo zmdi zmdi-pin"></i>
+                        <div class="info">3481 MELROSE PLACE, LOS ANGELES</div>
+                    </div>               
+                </div>
+            </div>
+        </div> 
+    </div>
+        
+    <footer class="container ftr-body" >
+        <div class="row"  >
+            <div class="col-12">
+                <h5>COPY RIGHT © BY A-SHAWKY 2017 | ALL RIGHTS RESERVED.</h5>
+            </div>
+        </div> 
+    </footer>
+    
     <script src="js/data.js"></script>
     <script src="js/functions.js"></script>
     <script src="js/actions.js"></script>
