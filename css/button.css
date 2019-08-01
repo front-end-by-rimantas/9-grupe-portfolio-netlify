@@ -15,3 +15,9 @@
     border: 0;
     border-radius: 30px ;
 }
+
+@media ( max-width: 1100px ){
+    #about .button{
+        width: 100%;
+    }
+}

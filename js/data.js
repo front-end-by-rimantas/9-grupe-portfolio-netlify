@@ -69,6 +69,42 @@ const hardSkills = [
 
 /* My resume */
 
+const education = [
+    {
+        year: 'Jan 2004 - Dec 2006',
+        course: 'cooursourLists of  United Statessok',
+        school: 'Lists of schools in the United States'
+    },
+    {
+        year: 'Jan 2004 - Dec 2006',
+        course: 'cooursourLists of  United Statessok',
+        school: 'VGTu Lists of schools in the United States'
+    },
+    {
+        year: 'Jan 2004 - Dec 2006',
+        course: 'uber oursourscourse',
+        school: 'Lists of schools in the United '
+    }
+]
+
+const work = [
+    {
+        year: 'Jan 2004 - Dec 2006',
+        course: 'cooursourLists of  United Statessok',
+        school: 'keLists of schools in the United '
+    },
+    {
+        year: 'Jan 2004 - Dec 2006',
+        course: 'mcdonLists of schoted States winner',
+        school: 'mcdrivLists of in the Statesrse'
+    },
+    {
+        year: 'Jan 2004 - Dec 2006',
+        course: 'uber couroursseLists ofted States',
+        school: 'VLists of schoolUnited Statessoursa'
+    }
+]
+
 /* Achievements */
 
 /* My services */

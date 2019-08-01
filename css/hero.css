@@ -1,11 +1,21 @@
 /* Hero */
 #hero-cont{
     background: url('../img/header.png');
-    /* background-color: black; */
-    /* opacity: 0.5; */
+    position: relative;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
+    #hero-cont::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: black;
+        opacity: 0.6;
+    }
 #hero {
     width: 100%;
     margin: 100px 0;
