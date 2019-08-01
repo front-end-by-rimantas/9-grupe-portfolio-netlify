@@ -71,6 +71,36 @@ function progressBars( data ){
 }
 
 /* My resume */
+function workEducation( data ){
+    let HTML = '';
+    
+    if ( !Array.isArray(data) ) {
+        console.error('Wrong data type. Has to be an array.');
+        return HTML;
+    }
+    if ( data.length === 0 ){
+        console.error('Wrong data size. Non-empty array needed.');
+        return HTML;
+    }
+    for ( let i=0; i<data.length; i++ ){
+        if ( 
+        typeof( data[i].year ) !== 'string' ||
+        typeof( data[i].course ) !== 'string' ||
+        typeof( data[i].school ) !== 'string' ||
+        data[i].year === '' ||
+        data[i].course.lenght === 0 ||
+        data[i].school.length === 0 ) {
+            continue;
+        }
+    
+    HTML += `<div class="list">
+                <p>${data[i].year}</p>
+                <h5>${data[i].course}</h5>
+                <h6>${data[i].school}</h6>
+            </div>`
+    }
+    return HTML;
+}
 
 /* Achievements */
 

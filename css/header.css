@@ -24,18 +24,20 @@ header > .container{
     #hdr nav{
         display: inline-block;
         float: right;
-        margin: 15px 0;
+        margin-right: 50px;
     }
     #hdr nav a{
         margin: 0 10px;
         width: 50px;
-        line-height: 20px; 
+        line-height: 22px;
+        font-size: 18px; 
         text-decoration: none;
         color: var(--fourth-color-anti); 
         transition: all 0.5s; 
     }
         #hdr nav a:first-child{
             color: var(--main-color);
+            font-weight: bold;
         }
         #hdr nav a:hover{
             color: var(--main-color);

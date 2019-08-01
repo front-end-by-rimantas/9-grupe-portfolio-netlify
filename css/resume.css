@@ -1,1 +1,97 @@
 /* Resume section */
+#resume i{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    color: var(--third-color);
+    background-color: var(--icon-fill);
+}
+
+#resume .left-study{
+    text-align: right;
+}
+
+#resume .right-work{
+    text-align: left;   
+}
+
+#resume .list{
+    padding-bottom: 25px;
+    padding-top: 40px;
+}
+
+    #resume .list:last-child{
+        padding-bottom: 0;
+    }
+        #resume .left-study .list:last-child{
+            margin-bottom: 50px;
+        }
+        #resume .right-work .list:last-child{
+            margin-bottom: 100px;
+        }
+
+
+    #resume .left-study  .list {
+        position: relative;
+        width: calc(100% - 25px);
+        padding-right: 25px;
+        margin-right: -25px;
+        border-right: 1px solid var(--secondary-color);
+    }
+        #resume .left-study .list::before {
+            content: '';
+            position: absolute;
+            top: 43px;
+            right: -6px;
+            width: 7px;
+            height: 7px;
+            border: var(--gold) solid 2px;
+            background: var(--icon-fill);
+            border-radius: 50px;
+        }
+
+    #resume .right-work .list {
+        position: relative; 
+        width: calc(100% - 25px);
+        padding-left: 25px;
+        margin-left: 25px;
+        border-left: 1px solid var(--secondary-color);
+    }
+        #resume .right-work .list::before {
+            content: '';
+            position: absolute;
+            top: 43px;
+            left: -6px;
+            width: 7px;
+            height: 7px;
+            border: var(--gold) solid 2px;
+            background: var(--icon-fill);
+            border-radius: 50px;
+        }
+    
+        #resume .list > p{
+            padding-bottom: 20px;
+            font-size: 18px;
+            line-height: 18px;
+        }
+
+        #resume .list > h5{
+            font-size: 18px;
+            line-height: 18px;
+            font-weight: 400;
+            color: var(--main-color);
+            text-transform: uppercase;
+            padding-bottom: 10px;
+        }
+        
+        #resume .list > h6{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 18px;
+            margin-bottom: 10px;
+        }

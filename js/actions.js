@@ -12,7 +12,8 @@ document.querySelector('#skills .softskills').innerHTML = progressBars( softSkil
 document.querySelector('#skills .hardskills').innerHTML = progressBars( hardSkills );
 
 /* My resume */
-
+document.querySelector('#resume .left-study .all-list').innerHTML = workEducation( education );
+document.querySelector('#resume .right-work .all-list').innerHTML = workEducation( work );
 /* Achievements */
 
 /* My services */
