@@ -6,7 +6,7 @@
     background-attachment: fixed;
 }
     #achievements > .container {
-        background-color: rgba(0,0,0,0.35);
+        background-color: rgba(0,0,0,0.5);
     }
         #achievements > .container > .row{
             display: inline-block;
