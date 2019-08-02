@@ -107,6 +107,29 @@ const work = [
 
 /* Achievements */
 
+const achievements = [
+    {
+        icon:'heart',
+        number:'738',
+        trophy:'Happy clients'
+    },
+    {
+        icon:'check-square',
+        number:'102',
+        trophy:'Successful Projects'
+    },
+    {
+        icon:'trophy',
+        number:'06',
+        trophy:'Awards Received'
+    },
+    {
+        icon:'coffee',
+        number:'511',
+        trophy:'Cups of tea'
+    },
+]
+
 /* My services */
 const services = [
     {
