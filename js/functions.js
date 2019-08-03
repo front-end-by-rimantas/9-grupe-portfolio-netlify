@@ -103,6 +103,36 @@ function workEducation( data ){
 }
 
 /* Achievements */
+function muchTrophy( data ){
+    let HTML = '';
+    
+    if ( !Array.isArray(data) ) {
+        console.error('Wrong data type. Has to be an array.');
+        return HTML;
+    }
+    if ( data.length === 0 ){
+        console.error('Wrong data size. Non-empty array needed.');
+        return HTML;
+    }
+    for ( let i=0; i<data.length; i++ ){
+        if ( 
+        typeof( data[i].icon ) !== 'string' ||
+        typeof( data[i].number ) !== 'string' ||
+        typeof( data[i].trophy ) !== 'string' ||
+        data[i].icon === '' ||
+        data[i].number.lenght === 0 ||
+        data[i].trophy.length === 0 ) {
+            continue;
+        }
+    
+    HTML += `<div class=" one-ach col-3 col-md-6 col-micro-12">
+                <div class="fa fa-${data[i].icon}"></div>
+                <p class="count">${data[i].number}</p>
+                <p class="text">${data[i].trophy}</p>
+            </div>`
+    }
+    return HTML;
+}
 
 /* My services */
 function createServices( data ){
@@ -140,6 +170,61 @@ function createServices( data ){
 /* Testimonials */
 
 /* Latest Blog */
+function wowBlog( data ){
+    let HTML = `<div class="col-12">
+                    <h3> <span>Latest</span> blog </h3> 
+                </div>`;
+    
+    if ( !Array.isArray(data) ) {
+        console.error('Wrong data type. Has to be an array.');
+        return HTML;
+    }
+    if ( data.length === 0 ){
+        console.error('Wrong data size. Non-empty array needed.');
+        return HTML;
+    }
+    for ( let i=0; i<data.length; i++ ){
+        if ( 
+        typeof( data[i].img ) !== 'string' ||
+        typeof( data[i].a ) !== 'string' ||
+        typeof( data[i].h5 ) !== 'string' || 
+        typeof( data[i].p ) !== 'string' ||
+        typeof( data[i].portrait ) !== 'string' ||
+        typeof( data[i].name ) !== 'string' ||
+        typeof( data[i].date ) !== 'string' ||
+        data[i].img === '' ||
+        data[i].a.length === 0 ||
+        data[i].h5.length === 0 ||
+        data[i].p === '' ||
+        data[i].portrait.length === 0 ||
+        data[i].name === '' ||
+        data[i].date.length === 0 ) {
+            continue;
+        }
+    
+    HTML += `<div class="col-4 col-sm-12">
+                <div class="picture">
+                    <img src="/img/blog/${data[i].img}" alt="foto">
+                    <a href="#">${data[i].a}</a>
+                </div>
+                <div class="texts col-12">
+                    <a href="#">
+                        <h5>${data[i].h5}</h5>
+                    </a>
+                    <p>${data[i].p}</p>
+                    <div class="author">
+                        <div class="portrait">
+                            <img src="/img/blog/${data[i].portrait}" alt="face">
+                        </div>
+                        <div class="name">${data[i].name}</div>
+                        <div class="date">${data[i].date}</div>
+                    </div>
+                </div>
+            </div>`
+    }
+    return HTML;
+}
+
 
 /* Get in touch */
 

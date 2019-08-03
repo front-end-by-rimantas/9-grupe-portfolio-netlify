@@ -15,7 +15,7 @@ document.querySelector('#skills .hardskills').innerHTML = progressBars( hardSkil
 document.querySelector('#resume .left-study .all-list').innerHTML = workEducation( education );
 document.querySelector('#resume .right-work .all-list').innerHTML = workEducation( work );
 /* Achievements */
-
+document.querySelector('#achievements .container .row').innerHTML = muchTrophy( achievements );
 /* My services */
 document.querySelector('.allServices.row').innerHTML = createServices( services );
 /* My portfolio */
@@ -23,6 +23,7 @@ document.querySelector('.allServices.row').innerHTML = createServices( services 
 /* Testimonials */
 
 /* Latest Blog */
+document.querySelector('#blog').innerHTML = wowBlog( blogEntry );
 
 /* Get in touch */
 

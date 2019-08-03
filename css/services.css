@@ -1,44 +1,93 @@
 /* Services section */
-
 #services  h3{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
-.aService > i{
-    display: inline-block;
-    width: 70px;
-    height: 70px;
-    font-size: 40px;
-    line-height: 60px;
-    border-radius: 50%;
-    padding-top: 5px;
-    color: var(--main-color);
-    margin-top: 20px;
-}
-    .aService > i:hover{
-        background-color: var(--main-color);
-        color: var( --fourth-color-anti);
-        transition: 0.8s;
-    }
-    
-.aService > h4{
-    display: inline-block;
-    float: left;
-    width: 100%;
-    font-size: 25px;
-    line-height: 25px;
-    text-transform: capitalize;
-    font-weight: 500;
-    margin-top: 10px;
-    
-}
-.aService > p{
-    display: inline-block;
-    float: left;
-    width:100%;
-    margin: 20px 0;
-    font-size: 18px;
-    line-height: 28px;
 
-    
+.allServices.row{
+    position: relative;
 }
+
+    .allServices.row::before{
+        content: '';
+        width: 100%;
+        border-top: solid 1px var(--third-color);
+        position: absolute;
+        top: 274px;
+        left: 0;
+        bottom: 0;
+    }
+
+    .allServices.row::after{
+        display: none;
+        content: '';
+        width: 100%;
+        border-top: solid 1px var(--third-color);
+        position: absolute;
+        top: 517px;
+        left: 0;
+        bottom: 0;
+    }
+
+        @media ( max-width: 1100px ) {
+            .allServices.row::before{
+                top: 246px;
+            }
+            .allServices.row::after{
+                display: inline-block;
+            }
+        }
+
+        @media ( max-width: 900px ) {
+            .allServices.row::before{
+                display: none;
+            }
+            .allServices.row::after{
+                display: none;
+            }
+        }
+
+    .aService{
+        border-left: 1px solid var(--third-color);
+        border-right: 1px solid var(--third-color);
+        margin-bottom: 50px;
+    }
+
+        .aService > i{
+            display: inline-block;
+            width: 70px;
+            height: 70px;
+            font-size: 40px;
+            line-height: 60px;
+            border-radius: 50%;
+            padding-top: 5px;
+            color: var(--main-color);
+            margin-top: 20px;
+        }
+
+            .aService > i:hover{
+                background-color: var(--main-color);
+                color: var( --fourth-color-anti);
+                transition: 0.8s;
+            }
+            
+        .aService > h4{
+            display: inline-block;
+            float: left;
+            width: 100%;
+            font-size: 25px;
+            line-height: 25px;
+            text-transform: capitalize;
+            font-weight: 500;
+            margin-top: 10px;
+            
+        }
+
+        .aService > p{
+            display: inline-block;
+            float: left;
+            width:100%;
+            margin: 20px 0;
+            font-size: 18px;
+            line-height: 28px;
+        }
 

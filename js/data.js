@@ -1,6 +1,37 @@
 "use strict";
 
 /* Hero */
+
+const blogEntry = [
+    {
+        img: '1.jpg',
+        a: 'UX/UI',
+        h5: 'Light trails on highway',
+        p: 'Quisque dui at erat auctor pulvinar nisl felis, gravida et aliquam vitae, aliquet quis nibh.',
+        portrait: 'f1.jpg',
+        name: 'Tomas Katerpiliariauskas',
+        date: '03 August 2018'
+    },
+    {
+        img: '2.jpg',
+        a: 'interface',
+        h5: 'Good stuff and other',
+        p: 'Quisque dui at erat auctor pulvinar nisl felis, gravida et aliquam vitae, aliquet quis nibh.',
+        portrait: 'f2.jpg',
+        name: 'Hans Diershvangelberg',
+        date: '12 June 2019'
+    },
+    {
+        img: '3.jpg',
+        a: 'solutions',
+        h5: 'Potato the god savior',
+        p: 'Quisque dui at erat auctor pulvinar nisl felis, gravida et aliquam vitae, aliquet quis nibh.',
+        portrait: 'f3.jpg',
+        name: 'Antanina Karmazinaitiene',
+        date: '24 December 2010'
+    },
+    
+]
 const heroIcons = [
     {
         icon: 'facebook',
@@ -106,6 +137,29 @@ const work = [
 ]
 
 /* Achievements */
+
+const achievements = [
+    {
+        icon:'heart',
+        number:'738',
+        trophy:'Happy clients'
+    },
+    {
+        icon:'check-square',
+        number:'102',
+        trophy:'Successful Projects'
+    },
+    {
+        icon:'trophy',
+        number:'06',
+        trophy:'Awards Received'
+    },
+    {
+        icon:'coffee',
+        number:'511',
+        trophy:'Cups of tea'
+    },
+]
 
 /* My services */
 const services = [

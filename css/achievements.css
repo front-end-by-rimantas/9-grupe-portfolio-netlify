@@ -1,32 +1,37 @@
 /* Achievements section */
 
-.achievements {
+#achievements {
     background: url('../img/mainBackground.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 300px;
 }
-.achievements > .container {
-    height: 300px;
-    background-color: rgba(0,0,0,0.35);
-}
-.achievements > .container > .row > .col-12 > div {
-    position: relative;
+    #achievements > .container {
+        background-color: rgba(0,0,0,0.5);
+    }
+        #achievements > .container > .row{
+            display: inline-block;
+            float: left;
+            margin-top: 50px;
+            /* margin-bottom: 50px; */
+        }
+#achievements > .container > .row > .one-ach{
     display: inline-block;
-    margin: 30px 50px;
+    float: left;
+    margin-bottom: 80px;
 }
-.achievements > .container > .row > .col-12 > div > .fa {
+#achievements > .container > .row > .one-ach > .fa {
     color: var(--main-color);
     font-size: 30px;
-    padding-bottom: 40px; 
+    line-height: 35px;
+    margin-bottom: 20px;
 }
-.achievements > .container > .row > .col-12 > div > .count {
+#achievements > .container > .row > .one-ach > .count {
     color: var(--secondary-color);
     font-size: 25px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     font-style: italic;
 }
-.achievements > .container > .row > .col-12 > div > .text {
+#achievements > .container > .row > .one-ach > .text {
     color: var(--main-color-anti);
     color: var(--fifth-color);
     font-size: 20px;
