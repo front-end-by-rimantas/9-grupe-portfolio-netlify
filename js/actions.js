@@ -23,6 +23,7 @@ document.querySelector('.allServices.row').innerHTML = createServices( services 
 /* Testimonials */
 
 /* Latest Blog */
+document.querySelector('#blog').innerHTML = wowBlog( blogEntry );
 
 /* Get in touch */
 
