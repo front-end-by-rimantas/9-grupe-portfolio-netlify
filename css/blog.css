@@ -1,4 +1,5 @@
 /* Blog section */
+
 #blog .picture{
     display: inline-block;
     float: left;
@@ -13,7 +14,6 @@
         width: 100%;  
     }
     #blog .picture > a{
-        /* display: inline-block; */
         padding: 0px 8px;
         color: var(--main-color);
         line-height: 24px;
@@ -47,9 +47,6 @@
         float: left;
         width: 100%;
         margin-bottom: 25px;
-        /* width: calc(100% - 2*var(--gap));
-        margin-left: var(--gap);
-        margin-right: var(--gap);  */
         text-decoration: none;
         text-transform: uppercase;
         font-weight: 500;
@@ -79,10 +76,7 @@
         background-color: var(--third-color);
         border-radius: 50px;
     }
-        /* #blog .author > .portrait{
-            display: inline-block;
-            float: left;
-        } */
+
             #blog .author > .portrait > img{
                 display: inline-block;
                 float: left;

@@ -1,1 +1,90 @@
 /* Testimonials section */
+
+#testimonials {
+    background: url(/img/mainBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+    #testimonials::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    }
+        #testimonials .row {
+            position: relative;
+            padding: 30px 50px;
+            color: var( --fifth-color);
+        }
+            #testimonials .row h4{
+                line-height: 20px;
+                text-transform: uppercase;
+                font-weight: 300;
+                color: var(--main-color);
+                margin-bottom: 10px;
+            }
+            #testimonials .row .stars{
+                line-height: 20px;
+                padding: 5px 0;
+                color: #FFD600;
+                margin-bottom: 10px;
+            }
+            #testimonials .row p{
+                font-size: 18px;
+                line-height: 24px;
+                margin-bottom: 30px;   
+            }
+            #testimonials .row h5{
+                font-size: 16px;
+                line-height: 30px; 
+                text-transform: uppercase;
+                color: var(--text-area-lables); 
+                font-weight: 300;
+                margin-bottom: 0px;
+            }
+            #testimonials .row h6{
+                font-size: 20px;
+                line-height: 30px;
+                font-weight: 300;
+                text-transform: uppercase;
+                color: var(--fifth-color);
+                margin-bottom: 30px;   
+            }
+
+
+
+        #testimonials .navBar {
+            display: inline-block;
+            text-align: center;
+            margin-top: 10px;
+            height: 30px;
+            padding: 13px 0;
+        }
+            #testimonials .navBar .bar{
+                content: '';
+                display: inline-block;
+                width: 15px;
+                height: 4px;
+                margin: 0 2px;
+                text-align: center;
+                background-color: var( --secondary-color);
+                /* border: solid 1px var(--text-area-lables); */
+                border-radius: 20px;
+                cursor: pointer;
+            }
+                #testimonials .navBar .bar:hover {
+                    background-color: var(--fifth-color);
+                }
+
+            #testimonials .navBar .bar.active {
+                width: 30px;
+                background-color: var(--main-color);
+                /* border: solid 1px var(--main-color); */
+            }
