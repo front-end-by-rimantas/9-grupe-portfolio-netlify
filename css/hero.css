@@ -37,11 +37,13 @@
             font-size: 25px;
             line-height: 25px;
             font-weight: 200;
+            color: var(--fifth-color);
             margin-top: 200px;
             text-transform: uppercase;
         }
         #hero > div > p{
         margin-top: 20px;
+        color: var(--fifth-color);
         }
 #hero .social-icons{
     margin-top: 20px;
