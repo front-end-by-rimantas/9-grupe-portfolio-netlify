@@ -37,7 +37,6 @@
 #portfolio .all-pictures {
     display: inline-block;
     float: left;
-    width: calc(100% - var(--gap) * 2);
 }
     #portfolio .all-pictures .picture{
         display: inline-block;
@@ -45,29 +44,39 @@
         height: 300px;
         width: calc( (100% - 18px) / 3);
         margin: 3px;
-        position: relative;
-            background-position: center;
-            background-size: cover;
-            border-radius: 20px;
-            overflow: hidden;
+
+        background-position: center;
+        background-size: cover;
+        border-radius: 20px;
+        overflow: hidden;
     }
         #portfolio .all-pictures .picture:last-child,
         #portfolio .all-pictures .picture:first-child{
-            width: calc( (100% - 18px) / 3 * 2);
+            width: calc( (100% - 9px) / 3 * 2);
         }
 
+        @media(max-width: 1100px){
+            #portfolio .all-pictures .picture,
+            #portfolio .all-pictures .picture:last-child,
+            #portfolio .all-pictures .picture:first-child{
+                width: calc( (100% - 12px) / 2);
+            }
+        }
     #portfolio .all-pictures .picture > .content {
-        /* display: none; */
         background-color: #e9ecefCC;
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
+        height: 280px;
+        width: calc(100% - 20px);
         color: var(--secondary-color-text);
-        align-items: center;
-        justify-content: center;
-    }
+        margin: 10px;
+        border-radius: 20px;
+    }           
+                #portfolio .all-pictures .picture .content.hiddden{
+                    display: none;
+                }
+                #portfolio .all-pictures .picture:hover .hiddden{
+                    display: inline-block;
+                }
+
         #portfolio .all-pictures .picture > .content > .title {
             display: inline-block;
             width: 100%;
@@ -81,16 +90,18 @@
             display: inline-block;
             width: 100%;
             margin-top: 40px;
+        }
+        #portfolio .all-pictures .picture > .content > .icons > a {
+            display: inline-block;
+            margin: 20px;
             color: var(--main-color);
             text-align: center;
+            text-decoration: none;
             font-size: 25px;
         }
-            #portfolio .all-pictures .picture > .content > .icons > i {
-                display: inline-block;
-                margin: 20px;
-            }
-            #portfolio .all-pictures .picture > .content > .icons > i:hover {
+            #portfolio .all-pictures .picture > .content > .icons > a:hover {
                 display: inline-block;
                 color: var(--text-area-lables);
                 transition: 0.3s;
+                cursor: pointer;
             }

@@ -196,6 +196,40 @@ const services = [
 ];
 
 /* My portfolio */
+const portfolioWorks = [
+    {
+        background:'1',
+        title: 'Web Developement'
+    },
+    {
+        background:'2',
+        title: 'High End'
+    },
+    {
+        background:'3',
+        title: 'very Internet'
+    },
+    {
+        background:'4',
+        title: 'such AWEsome'
+    },
+    {
+        background:'5',
+        title: 'Much wow'
+    },
+    {
+        background:'6',
+        title: 'mega Inovative'
+    },
+    {
+        background:'7',
+        title: 'Gucci extraordinare'
+    },
+    {
+        background:'8',
+        title: 'a lot bueno'
+    },
+];
 
 /* Testimonials */
 

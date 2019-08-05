@@ -166,6 +166,52 @@ function createServices( data ){
 }
 
 /* My portfolio */
+function createPortfolio( data ){
+    let HTML = `<div class="col-12">
+                    <h3> <span>My</span> Portfolio  </h3>
+                </div>
+                <div class="col-12">
+                    <div class="sorting">
+                        <div>All</div>
+                        <div>Brand</div>
+                        <div>Design</div>
+                        <div>Video</div>
+                        <div>Photo</div>
+                    </div>
+                </div>
+                <div class="all-pictures col-12">`;
+
+    if ( !Array.isArray(data) ) {
+        console.error('Wrong data type. Has to be an array.');
+        return HTML;
+    }
+    if ( data.length === 0 ){
+        console.error('Wrong data size. Non-empty array needed.');
+        return HTML;
+    }
+
+    for ( let i=0; i<7; i++ ){
+        if ( 
+            typeof( data[i].background ) !== 'string' ||
+            typeof( data[i].title ) !== 'string' ||
+            data[i].background === '' ||
+            data[i].title.length === 0 ){
+            continue;
+        }
+    
+        HTML += `<div class="picture " style="background-image: url(/img/portfolio/${data[i].background}.jpg);">
+                    <div class="content hiddden">
+                        <div class="title">${data[i].title}</div>
+                        <div class="icons">
+                            <a href="#" class="zmdi zmdi-link"></a>
+                            <a href="#" class="zmdi zmdi-gps-dot"></a>
+                        </div>
+                    </div>
+                </div>`;
+    }
+    HTML += `</div>`
+    return HTML;  
+}
 
 /* Testimonials */
 

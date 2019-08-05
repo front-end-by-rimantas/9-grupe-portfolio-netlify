@@ -19,6 +19,7 @@ document.querySelector('#achievements .container .row').innerHTML = muchTrophy( 
 /* My services */
 document.querySelector('.allServices.row').innerHTML = createServices( services );
 /* My portfolio */
+document.querySelector('#portfolio').innerHTML = createPortfolio( portfolioWorks );
 
 /* Testimonials */
 
