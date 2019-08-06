@@ -29,10 +29,32 @@ function createIcons( data ){
 }
 
 /* Header Nav BAr */
-function myFunction(x) {
+function myFunction(x) {    
     x.classList.toggle("change");
 }
 
+function updateHeader() {
+    const headerVisibleHeight = Math.floor(window.innerHeight * 0.5);
+    const header = document.getElementById('hdr');
+    if ( window.scrollY >= headerVisibleHeight ) {
+        header.classList.add('fixed');
+        document.getElementById("logotipas").src = "img/logo2.png";
+    } else {
+        header.classList.remove('fixed');
+        document.getElementById("logotipas").src = "img/logo.png";
+    }
+    return;
+}
+
+var onScrollHandler = function() {
+    var newImageUrl = yourImageElement.src;
+    var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    if (scrollTop > 100) {
+       newImageUrl = "img1.jpg"
+    }
+    yourImageElement.src = newImageUrl;
+  };
+  object.addEventListener ("scroll", onScrollHandler);
 /* About me */
 
 /* My skills */

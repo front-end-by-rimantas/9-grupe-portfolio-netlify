@@ -4,7 +4,7 @@
 document.querySelector('#hero .social-icons').innerHTML = createIcons( heroIcons );
 
 /* Header Nav BAr */
-
+window.addEventListener('scroll', updateHeader);
 /* About me */
 
 /* My skills */
