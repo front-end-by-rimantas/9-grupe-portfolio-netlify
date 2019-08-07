@@ -13,7 +13,7 @@
         width: 100%;
         border-top: solid 1px var(--third-color);
         position: absolute;
-        top: 385px;
+        top: 425px;
         left: 0;
         bottom: 0;
     }
@@ -28,6 +28,16 @@
         left: 0;
         bottom: 0;
     }
+
+
+        @media ( max-width: 1300px ) {
+            #services::before{
+                top: 385px;
+            }
+            #services::after{
+                display: none;
+            }
+        }
 
         @media ( max-width: 1100px ) {
             #services::before{

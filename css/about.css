@@ -56,23 +56,30 @@
         }
 #about > div > .btn-container{
     display: inline-block;
+    width: 100%;
     float: left;
-    width: calc(100% - 10px);
-    margin-left: 10px;
 }
     #about > div > .btn-container > a.button{
-        margin-right: 20px;
-        margin-bottom: 20px;
         text-decoration: none;
     }
-
-/* @media ( max-width: 1100px ){
-    #about .writings{
-        margin-left: 20px;
-    }
-} */
+        #about > div > .btn-container > a.button:last-child{
+            text-decoration: none;
+            float: right;
+            width: 40%;
+            margin: 0 5px;
+        }
 @media ( max-width: 900px ){
     #about.row .h3-cont{
         text-align: center;
+    }
+    #about > div > .btn-container > a.button{
+        text-decoration: none;
+        margin: 0 5px;
+        width: calc( 50% - 10px );
+    }
+    #about > div > .btn-container > a.button:last-child{
+        text-decoration: none;
+        float: right;
+        width: calc( 50% - 10px );
     }
 }

@@ -63,18 +63,28 @@
             }
         }
     #portfolio .all-pictures .picture > .content {
-        background-color: #e9ecefCC;
+        background-color: #e9ecef;
+        opacity: 0.1;
         height: 280px;
         width: calc(100% - 20px);
         color: var(--secondary-color-text);
         margin: 10px;
         border-radius: 20px;
+        animation: fadeIn;
+        animation-duration: 0.3s;
+        animation-fill-mode: forwards;
+
     }           
                 #portfolio .all-pictures .picture .content.hiddden{
                     display: none;
                 }
                 #portfolio .all-pictures .picture:hover .hiddden{
-                    display: inline-block;
+                    display: inline-block; 
+                }
+
+                @keyframes fadeIn{
+                    from{ opacity: 0;}
+                    to{ opacity: 0.7;}
                 }
 
         #portfolio .all-pictures .picture > .content > .title {

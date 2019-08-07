@@ -3,27 +3,29 @@
 #hdr{
   display: inline-block;
   width: 100%;
-  margin: 0;
 }
     #hdr.container {
         position: absolute;
-        padding: 10px;
         background-color:transparent;
         text-align: right;
         z-index: 2;
     }
-    #hdr.container.fixed {
-        position: fixed;
-        background-color: #FFF;
-        box-shadow: 0 2px 4px #999;
-        text-align: right;
-    }
+        #hdr.container.fixed {
+            position: fixed;
+            background-color: #FFF;
+            box-shadow: 0 2px 4px #999;
+            text-align: right;
+        }
+            #hdr > .row {
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
         
     #hdr .logo{
         display: inline-block;
         float:left;
         width: 150px;
-        text-align: center;
+        text-align: left;
       
     }
         #hdr .logo > img{
@@ -51,6 +53,9 @@
         #hdr nav a:first-child{
             color: var(--main-color);
             font-weight: bold;
+        }
+        #hdr nav a:last-child{
+            margin-right: 0px;
         }
         #hdr nav a:hover{
             color: var(--main-color);

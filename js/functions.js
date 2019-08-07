@@ -83,8 +83,9 @@ function progressBars( data ){
                 </div>
                 <div class="bar">
                     <div class="value" style="width: ${data[i].value};">
-                        <div class="loading"></div> 
+                        <div class="loading">
                         <span>${data[i].value}</span>   
+                        </div> 
                     </div>
                 </div>
             </div> `
