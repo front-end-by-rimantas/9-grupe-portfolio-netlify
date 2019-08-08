@@ -21,6 +21,11 @@ document.querySelector('.allServices.row').innerHTML = createServices( services 
 document.querySelector('#portfolio').innerHTML = createPortfolio( portfolioWorks );
 
 /* Testimonials */
+document.querySelector('#testimonials .col-12').innerHTML = generateTestimonials( testimonials );
+
+document.querySelectorAll('.testimonials .fa').forEach( item => {
+    item.addEventListener( 'click', changeTestimonial );
+});
 
 /* Latest Blog */
 document.querySelector('#blog').innerHTML = wowBlog( blogEntry );

@@ -238,6 +238,46 @@ const portfolioWorks = [
 
 /* Testimonials */
 
+let visibleTestimonial = 1;
+let animationInProgress = false;
+const testimonials = [
+    {   
+        title : 'awesome work',
+        author: 'Ahmed',
+        stars: 5,
+        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, optio assumenda tenetur quaerat tempora necessitatibus.',
+        profesion: 'web developer'
+    },
+    {
+        title : 'awesome work',
+        author: 'Sara',
+        stars: 5,
+        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, optio assumenda tenetur quaerat tempora necessitatibus.',
+        profesion: 'web developer'
+    },
+    {
+        title : 'awesome work',
+        author: 'Karim',
+        stars: 4,
+        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, optio assumenda tenetur quaerat tempora necessitatibus.',
+        profesion: 'web developer' 
+    },
+    {
+        title : 'awesome work',
+        author: 'Karim',
+        stars: 4,
+        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, optio assumenda tenetur quaerat tempora necessitatibus.',
+        profesion: 'web developer' 
+    },
+    {
+        title : 'awesome work',
+        author: 'Karim',
+        stars: 4,
+        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, optio assumenda tenetur quaerat tempora necessitatibus.',
+        profesion: 'web developer' 
+    }
+];
+
 /* Latest Blog */
 
 /* Get in touch */
