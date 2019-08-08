@@ -28,13 +28,10 @@
     #resume .list:last-child{
         padding-bottom: 0;
     }
-        #resume .left-study .list:last-child{
+        #resume .left-study .list:last-child,
+        #resume .right-work .list:last-child{
             margin-bottom: 50px;
         }
-        #resume .right-work .list:last-child{
-            margin-bottom: 100px;
-        }
-
 
     #resume .left-study  .list {
         position: relative;

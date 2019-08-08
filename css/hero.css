@@ -42,9 +42,14 @@
             text-transform: uppercase;
         }
         #hero > div > p{
-        margin-top: 20px;
-        color: var(--fifth-color);
+            text-transform: capitalize;
+            font-size: 20px;
+            line-height: 24px;
+            height: 24px;
+            margin-top: 20px;
+            color: var(--fifth-color);
         }
+
 #hero .social-icons{
     margin-top: 20px;
 }

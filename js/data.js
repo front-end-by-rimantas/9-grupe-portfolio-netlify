@@ -1,7 +1,12 @@
 "use strict";
 
 /* Hero */
-
+const thingsToType = [    
+    "Such developer",
+    "very UI/UX",
+    "Much amazing",
+    "super inovative" 
+    ];
 const blogEntry = [
     {
         img: '1.jpg',

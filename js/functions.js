@@ -1,6 +1,54 @@
 "use strict";
 
 /* Hero */
+
+// Current sentence being processed
+var arrayKeyValue = 0;
+// Character number of the current sentence being processed 
+var arrayKeyValueIndex = 0;
+// Holds the handle returned from setInterval
+var _INTERVAL_VAL;
+// Element that holds the text
+var elementID = document.querySelector("#typewrite");
+// Implements typing effect
+function Type() { 
+	var text =  thingsToType[arrayKeyValue].substring(0, arrayKeyValueIndex + 1);
+	elementID.innerHTML = text;
+	arrayKeyValueIndex++;
+
+	// If full sentence has been displayed then start to delete the sentence after some time
+	if(text === thingsToType[arrayKeyValue]) {
+		clearInterval(_INTERVAL_VAL);
+		setTimeout(function() {
+			_INTERVAL_VAL = setInterval(Delete, 50);
+		}, 2000);
+	}
+}
+// Implements deleting effect
+function Delete() {
+	var text =  thingsToType[arrayKeyValue].substring(0, arrayKeyValueIndex - 1);
+	elementID.innerHTML = text;
+	arrayKeyValueIndex--;
+    // If sentence has been deleted then start to display the next sentence
+	if(text === '') {
+		clearInterval(_INTERVAL_VAL);
+		// If last sentence then display the first one, else move to the next
+		if(arrayKeyValue == (thingsToType.length - 1))
+			arrayKeyValue = 0;
+		else
+			arrayKeyValue++;
+		arrayKeyValueIndex = 0;
+		// Start to display the next sentence after some time
+		setTimeout(function() {
+			_INTERVAL_VAL = setInterval(Type, 70);
+		}, 1000);
+	}
+}
+// Start the typing effect on load
+_INTERVAL_VAL = setInterval(Type, 70);
+
+
+
 function createIcons( data ){
     let HTML = '';
 
@@ -54,7 +102,7 @@ var onScrollHandler = function() {
     }
     yourImageElement.src = newImageUrl;
   };
-  object.addEventListener ("scroll", onScrollHandler);
+
 /* About me */
 
 /* My skills */
