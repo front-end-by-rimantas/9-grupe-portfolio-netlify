@@ -85,4 +85,9 @@
         float: right;
         width: calc( 50% - 10px );
     }
+    #about > div > .all-list > ul{
+        width: 50%;
+    }
+        #about > div > .all-list > ul:last-child{
+            width: 50%;
 }
