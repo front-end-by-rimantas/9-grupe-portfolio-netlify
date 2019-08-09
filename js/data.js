@@ -251,14 +251,14 @@ const testimonials = [
     {
         title : 'awesome work',
         author: 'Sara',
-        stars: 5,
+        stars: 1,
         content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, optio assumenda tenetur quaerat tempora necessitatibus.',
         profesion: 'web developer'
     },
     {
         title : 'awesome work',
         author: 'Karim',
-        stars: 4,
+        stars: 3,
         content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, optio assumenda tenetur quaerat tempora necessitatibus.',
         profesion: 'web developer' 
     },
@@ -272,7 +272,7 @@ const testimonials = [
     {
         title : 'awesome work',
         author: 'Karim',
-        stars: 4,
+        stars: 2,
         content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, optio assumenda tenetur quaerat tempora necessitatibus.',
         profesion: 'web developer' 
     }
