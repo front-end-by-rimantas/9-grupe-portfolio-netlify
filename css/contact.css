@@ -49,6 +49,10 @@
         border: none;
         background-color: var(--secondary-color);
     }
+        #contact form > .form-group > input:focus,
+        #contact form > .form-group > textarea:focus{
+            outline: none;
+        }
     #contact form .button{
         float: left;
         display: inline-block;

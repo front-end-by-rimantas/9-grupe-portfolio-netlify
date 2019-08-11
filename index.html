@@ -29,29 +29,31 @@
 
 <body>
 
-    <header class="container">
-        <div class="row" id="hdr">
-            <div class="col-2">
-                <img class="logo" src="img/logo.png" alt="Logo">
-            </div>
-            <div class="col-9 margin-l-1 hidden-sm">
-                <nav>
-                    <a href="#">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#services">Services</a>
-                    <a href="#portfolio">Portfolio</a>
-                    <a href="#testimonials">Client</a>
-                    <a href="#blog">Blog</a>
-                    <a href="#contact">Contact</a>
-                </nav>
-            </div>
-            <div class="burger show-sm col-sm-2 margin-l-sm-8" onclick="myFunction(this)">
-                <div class="bars">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
+    <header id="hdr" class="container">
+        <div class="row" >
+            <div class="col-12 col-sm-12">
+                <div class="logo">
+                    <img id="logotipas" src="img/logo.png" alt="Logo">
                 </div>
-            </div>            
+                <div class="hidden-sm">
+                    <nav>
+                        <a href="#">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#services">Services</a>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#testimonials">Client</a>
+                        <a href="#blog">Blog</a>
+                        <a href="#contact">Contact</a>
+                    </nav>
+                </div>
+                <div class="burger show-sm" onclick="myFunction(this)">
+                    <div class="bars">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>            
+            </div>
         </div>
     </header>
 
@@ -60,7 +62,7 @@
             <div class="col-12">
                 <h2>Welcome</h2> 
                 <h1>I AM JOHN DOE</h1>
-                <p>random skill list</p>
+                <p id="typewrite"></p>
             </div>
             <div class="col-12 social-icons"></div>
         </div>   
@@ -143,109 +145,17 @@
     
     <div class="container bg-third-color">
         <div class="row" id="portfolio">
-            <div class="col-12">
-                <h3> <span>My</span> Portfolio  </h3>
-            </div>
-            <div class="col-12">
-                <div class="sorting">
-                    <div>All</div>
-                    <div>Brand</div>
-                    <div>Design</div>
-                    <div>Video</div>
-                    <div>Photo</div>
-                </div>
-            </div>
-
-            <div class="all-pictures">
-                <div class="picture" style="background-image: url(/img/portfolio/1.jpg);">
-                    <div class="content">
-                        <div class="title">Web Design</div>
-                        <div class="icons">
-                            <i class="zmdi zmdi-link"></i>
-                            <i class="zmdi zmdi-gps-dot"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="picture" style="background-image: url(/img/portfolio/2.jpg);">
-                    <div class="content">
-                        <div class="title">Web Design</div>
-                        <div class="icons">
-                            <i class="zmdi zmdi-link"></i>
-                            <i class="zmdi zmdi-gps-dot"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="picture" style="background-image: url(/img/portfolio/3.jpg);">
-                    <div class="content">
-                        <div class="title">Web Design</div>
-                        <div class="icons">
-                            <i class="zmdi zmdi-link"></i>
-                            <i class="zmdi zmdi-gps-dot"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="picture" style="background-image: url(/img/portfolio/4.jpg);">
-                    <div class="content">
-                        <div class="title">Web Design</div>
-                        <div class="icons">
-                            <i class="zmdi zmdi-link"></i>
-                            <i class="zmdi zmdi-gps-dot"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="picture" style="background-image: url(/img/portfolio/5.jpg);">
-                    <div class="content">
-                        <div class="title">Web Design</div>
-                        <div class="icons">
-                            <i class="zmdi zmdi-link"></i>
-                            <i class="zmdi zmdi-gps-dot"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="picture" style="background-image: url(/img/portfolio/7.jpg);">
-                    <div class="content">
-                        <div class="title">Web Design</div>
-                        <div class="icons">
-                            <i class="zmdi zmdi-link"></i>
-                            <i class="zmdi zmdi-gps-dot"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="picture" style="background-image: url(/img/portfolio/8.jpg);">
-                    <div class="content">
-                        <div class="title">Web Design</div>
-                        <div class="icons">
-                            <i class="zmdi zmdi-link"></i>
-                            <i class="zmdi zmdi-gps-dot"></i>
-                        </div>
-                    </div>
-                </div>             
-            </div>
-
+            PORTFOLIO
         </div> 
     </div>
     
-    <div id="testimonials" class="container bg-fourth-color" >
-        <div class="row" >
-            <div class="testimonial col-12">
-                <h4>Awwwesome work</h4>
-                <div class="stars">
-                    <i class="zmdi zmdi-star"></i>
-                    <i class="zmdi zmdi-star"></i>
-                    <i class="zmdi zmdi-star"></i>
-                    <i class="zmdi zmdi-star"></i>
-                    <i class="zmdi zmdi-star"></i>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quia harum enim magnam consectetur nostrum quos, cumque nulla! Rerum vel molestias facilis, nam voluptates magni eligendi, omnis eos sint illum et. Magni assumenda vel consectetur laudantium odit, reiciendis quod aspernatur doloremque sint eaque eum harum culpa quaerat iste voluptatum praesentium.</p>
-                <h5>Jack Daniel</h5>
-                <h6>Best web designer</h6>
+
+    <div id="testimonials" class="container bg-fourth-color">
+        <div class="row">
+            <div class="col-12">
+                TESTIMONIALS
             </div>
-            <div class="navBar col-12">
-                <div class="bar active"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </div>
-        </div> 
+        </div>
     </div>
     
     <div class="container bg-third-color">

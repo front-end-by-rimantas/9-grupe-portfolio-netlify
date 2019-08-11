@@ -1,7 +1,12 @@
 "use strict";
 
 /* Hero */
-
+const thingsToType = [    
+    "Such developer",
+    "very UI/UX",
+    "Much amazing",
+    "super inovative" 
+    ];
 const blogEntry = [
     {
         img: '1.jpg',
@@ -196,8 +201,90 @@ const services = [
 ];
 
 /* My portfolio */
+const portfolioWorks = [
+    {
+        background:'3.jpg',
+        title: 'Web Developement',
+        tags: ['HTML', 'CSS' ]
+    },
+    {
+        background:'2.jpg',
+        title: 'High End',
+        tags: ['CSS', 'Advanced', 'JS']
+    },
+    {
+        background:'1.jpg',
+        title: 'very Internet',
+        tags: ['HTML',  'JS']
+    },
+    {
+        background:'4.jpg',
+        title: 'such AWEsome',
+        tags: ['CSS', 'Advanced']
+    },
+    {
+        background:'5.jpg',
+        title: 'Much wow',
+        tags: ['HTML', 'CSS',]
+    },
+    {
+        background:'6.jpg',
+        title: 'mega Inovative',
+        tags: ['HTML', 'CSS', 'JS']
+    },
+    {
+        background:'7.jpg',
+        title: 'Gucci extraordinare',
+        tags: ['Advanced', 'JS']
+    },
+    {
+        background:'8.jpg',
+        title: 'a lot bueno',
+        tags: ['HTML','Advanced', 'JS']
+    },
+];
 
 /* Testimonials */
+
+let visibleTestimonial = 1;
+let animationInProgress = false;
+const testimonials = [
+    {   
+        title : 'awesome work',
+        author: 'Ahmed',
+        stars: 5,
+        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, optio assumenda tenetur quaerat tempora necessitatibus.',
+        profesion: 'web developer'
+    },
+    {
+        title : 'awesome work',
+        author: 'Sara',
+        stars: 1,
+        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, optio assumenda tenetur quaerat tempora necessitatibus.',
+        profesion: 'web developer'
+    },
+    {
+        title : 'awesome work',
+        author: 'Karim',
+        stars: 3,
+        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, optio assumenda tenetur quaerat tempora necessitatibus.',
+        profesion: 'web developer' 
+    },
+    {
+        title : 'awesome work',
+        author: 'Karim',
+        stars: 4,
+        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, optio assumenda tenetur quaerat tempora necessitatibus.',
+        profesion: 'web developer' 
+    },
+    {
+        title : 'awesome work',
+        author: 'Karim',
+        stars: 2,
+        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, optio assumenda tenetur quaerat tempora necessitatibus.',
+        profesion: 'web developer' 
+    }
+];
 
 /* Latest Blog */
 
