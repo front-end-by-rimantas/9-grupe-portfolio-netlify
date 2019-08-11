@@ -205,42 +205,42 @@ const portfolioWorks = [
     {
         background:'3.jpg',
         title: 'Web Developement',
-        tags: ['html', 'css', ]
+        tags: ['HTML', 'CSS' ]
     },
     {
         background:'2.jpg',
         title: 'High End',
-        tags: ['css', 'advanced', 'js']
+        tags: ['CSS', 'Advanced', 'JS']
     },
     {
         background:'1.jpg',
         title: 'very Internet',
-        tags: ['html',  'js']
+        tags: ['HTML',  'JS']
     },
     {
         background:'4.jpg',
         title: 'such AWEsome',
-        tags: ['css', 'advanced']
+        tags: ['CSS', 'Advanced']
     },
     {
         background:'5.jpg',
         title: 'Much wow',
-        tags: ['html', 'css',]
+        tags: ['HTML', 'CSS',]
     },
     {
         background:'6.jpg',
         title: 'mega Inovative',
-        tags: ['html', 'css', 'js']
+        tags: ['HTML', 'CSS', 'JS']
     },
     {
         background:'7.jpg',
         title: 'Gucci extraordinare',
-        tags: ['advanced', 'js']
+        tags: ['Advanced', 'JS']
     },
     {
         background:'8.jpg',
         title: 'a lot bueno',
-        tags: ['html','advanced', 'js']
+        tags: ['HTML','Advanced', 'JS']
     },
 ];
 

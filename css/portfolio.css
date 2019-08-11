@@ -14,7 +14,7 @@
         position: relative;
         /* padding: 0px 10px 15px; */
         margin: 0 10px;
-        text-transform: capitalize;
+        /* text-transform: uppercase; */
         color: var(--fifth-color);
     }
         #portfolio .sorting > .item:hover,
@@ -37,11 +37,11 @@
 
 
 #portfolio .all-pictures {
-    display: inline-block;
+    /* display: inline-block; */
     float: left;
 }
     #portfolio .all-pictures .picture{
-        display: inline-block;
+        /* display: inline-block; */
         float: left;
         height: 300px;
         width: calc( (100% - 18px) / 3);
