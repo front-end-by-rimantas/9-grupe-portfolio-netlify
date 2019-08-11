@@ -237,20 +237,64 @@ function createServices( data ){
 }
 
 /* My portfolio */
+
+function uniqueWords( list2d, key='' ) {
+    let dictionary = [];
+
+    if ( !Array.isArray(list2d) ) {
+        return dictionary;
+    }
+
+    list2d.forEach( list => {
+        if ( Array.isArray(list) ) {
+            list.forEach( word => {
+                if ( typeof(word) === 'string' &&
+                     dictionary.indexOf(word) === -1 ) {
+                    dictionary.push( word );
+                }
+            });
+        } else {
+            if ( typeof(list) === 'object' &&
+                 list !== null &&
+                 typeof(key) === 'string' &&
+                 list[key] !== undefined &&
+                 Array.isArray( list[key] ) ) {
+                list[key].forEach( word => {
+                    if ( typeof(word) === 'string' &&
+                         dictionary.indexOf(word) === -1 ) {
+                        dictionary.push( word );
+                    }
+                });
+            }
+        }
+    });
+
+    return dictionary;
+}
+
 function createPortfolio( data ){
-    let HTML = `<div class="col-12">
-                    <h3> <span>My</span> Portfolio  </h3>
-                </div>
-                <div class="col-12">
-                    <div class="sorting">
-                        <div>All</div>
-                        <div>Brand</div>
-                        <div>Design</div>
-                        <div>Video</div>
-                        <div>Photo</div>
-                    </div>
-                </div>
-                <div class="all-pictures col-12">`;
+    let HTML = '',
+        tagsHTML = '',
+        workHTML = '';
+    // let HTML = `<div class="col-12">
+    //                 <h3> <span>My</span> Portfolio  </h3>
+    //             </div>
+    //             <div class="col-12">
+    //                 <div class="sorting">
+    //                     <div>All</div>
+    //                     <div>Brand</div>
+    //                     <div>Design</div>
+    //                     <div>Video</div>
+    //                     <div>Photo</div>
+    //                 </div>
+    //             </div>
+    //             <div class="all-pictures col-12">`;
+
+    uniqueWords(data, 'tags').forEach( tag => {
+        tagsHTML += `<div class="item">
+                        ${tag}
+                    </div>`;
+    });
 
     if ( !Array.isArray(data) ) {
         console.error('Wrong data type. Has to be an array.');
@@ -270,17 +314,40 @@ function createPortfolio( data ){
             continue;
         }
     
-        HTML += `<div class="picture " style="background-image: url(/img/portfolio/${data[i].background}.jpg);">
-                    <div class="content hiddden">
-                        <div class="title">${data[i].title}</div>
-                        <div class="icons">
-                            <a href="#" class="zmdi zmdi-link"></a>
-                            <a href="#" class="zmdi zmdi-gps-dot"></a>
+        workHTML += `<div class="picture " style="background-image: url(/img/portfolio/${data[i].background});">
+                        <div class="content hiddden">
+                            <div class="texts">
+                                <div class="title">${data[i].title}</div>
+                                <div class="tags">${data[i].tags.join(', ')}</div>
+                                <div class="icons">
+                                    <a href="#" class="zmdi zmdi-link"></a>
+                                    <a href="#" class="zmdi zmdi-gps-dot"></a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>`;
+                    </div>`;
     }
-    HTML += `</div>`
+    HTML += `<div class="col-12">
+                <h3> <span>My</span> Portfolio  </h3>
+            </div>
+            <div class="col-12">
+                <div class="sorting">
+                    <div class="item active">All</div>
+                    ${tagsHTML}
+                </div>
+            </div>
+            <div class="all-pictures col-12">
+                ${workHTML}
+            </div>`;
+
+    // HTML = `<div class="sorting">
+    //             <div class="item active">All</div>
+    //             ${tagsHTML}
+    //         </div>
+    //         <div class="all-pictures col-12">
+    //             ${workHTML}
+    //         </div>`;
+
     return HTML;  
 }
 

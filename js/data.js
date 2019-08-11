@@ -203,36 +203,44 @@ const services = [
 /* My portfolio */
 const portfolioWorks = [
     {
-        background:'1',
-        title: 'Web Developement'
+        background:'3.jpg',
+        title: 'Web Developement',
+        tags: ['html', 'css', ]
     },
     {
-        background:'2',
-        title: 'High End'
+        background:'2.jpg',
+        title: 'High End',
+        tags: ['css', 'advanced', 'js']
     },
     {
-        background:'3',
-        title: 'very Internet'
+        background:'1.jpg',
+        title: 'very Internet',
+        tags: ['html',  'js']
     },
     {
-        background:'4',
-        title: 'such AWEsome'
+        background:'4.jpg',
+        title: 'such AWEsome',
+        tags: ['css', 'advanced']
     },
     {
-        background:'5',
-        title: 'Much wow'
+        background:'5.jpg',
+        title: 'Much wow',
+        tags: ['html', 'css',]
     },
     {
-        background:'6',
-        title: 'mega Inovative'
+        background:'6.jpg',
+        title: 'mega Inovative',
+        tags: ['html', 'css', 'js']
     },
     {
-        background:'7',
-        title: 'Gucci extraordinare'
+        background:'7.jpg',
+        title: 'Gucci extraordinare',
+        tags: ['advanced', 'js']
     },
     {
-        background:'8',
-        title: 'a lot bueno'
+        background:'8.jpg',
+        title: 'a lot bueno',
+        tags: ['html','advanced', 'js']
     },
 ];
 
