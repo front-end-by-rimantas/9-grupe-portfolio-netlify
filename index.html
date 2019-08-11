@@ -29,29 +29,31 @@
 
 <body>
 
-    <header class="container">
-        <div class="row" id="hdr">
-            <div class="col-2">
-                <img class="logo" src="img/logo.png" alt="Logo">
-            </div>
-            <div class="col-9 margin-l-1 hidden-sm">
-                <nav>
-                    <a href="#">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#services">Services</a>
-                    <a href="#portfolio">Portfolio</a>
-                    <a href="#testimonials">Client</a>
-                    <a href="#blog">Blog</a>
-                    <a href="#contact">Contact</a>
-                </nav>
-            </div>
-            <div class="burger show-sm col-sm-2 margin-l-sm-8" onclick="myFunction(this)">
-                <div class="bars">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
+    <header id="hdr" class="container">
+        <div class="row" >
+            <div class="col-12 col-sm-12">
+                <div class="logo">
+                    <img id="logotipas" src="img/logo.png" alt="Logo">
                 </div>
-            </div>            
+                <div class="hidden-sm">
+                    <nav>
+                        <a href="#">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#services">Services</a>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#testimonials">Client</a>
+                        <a href="#blog">Blog</a>
+                        <a href="#contact">Contact</a>
+                    </nav>
+                </div>
+                <div class="burger show-sm" onclick="myFunction(this)">
+                    <div class="bars">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>            
+            </div>
         </div>
     </header>
 
@@ -60,7 +62,7 @@
             <div class="col-12">
                 <h2>Welcome</h2> 
                 <h1>I AM JOHN DOE</h1>
-                <p>random skill list</p>
+                <p id="typewrite"></p>
             </div>
             <div class="col-12 social-icons"></div>
         </div>   
@@ -86,8 +88,8 @@
                     </ul>
 
                     <ul>
-                        <li><b>Email:</b>John_Doe@Gmail.com</li>
-                        <li><b>LOCATION:</b>Los Angeles, USA</li>
+                        <li><b>Email : </b>John_Doe@Gmail.com</li>
+                        <li><b>LOCATION : </b>Los Angeles, USA</li>
                     </ul>                    
                 </div>
                 
@@ -143,18 +145,17 @@
     
     <div class="container bg-third-color">
         <div class="row" id="portfolio">
-            <div class="col-12">
-                <h3> <span>My</span> Portfolio  </h3>
-            </div>
+            PORTFOLIO
         </div> 
     </div>
     
-    <div class="container bg-fourth-color" >
-        <div class="row" id="   ">
+
+    <div id="testimonials" class="container bg-fourth-color">
+        <div class="row">
             <div class="col-12">
-                <p>testimonials</p>
+                TESTIMONIALS
             </div>
-        </div> 
+        </div>
     </div>
     
     <div class="container bg-third-color">
@@ -209,7 +210,7 @@
     <footer>
         <div class="row"  >
             <div class="col-12">
-                <p>COPYRIGHT © BY A-SHAWKY 2017 | ALL RIGHTS RESERVED.</p>
+                <p>COPYRIGHT © BY A-SHAWKY 2019 | ALL RIGHTS RESERVED.</p>
             </div>
         </div> 
     </footer>

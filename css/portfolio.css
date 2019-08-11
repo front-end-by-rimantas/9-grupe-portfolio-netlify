@@ -1,1 +1,150 @@
 /* Portfolio section */
+
+#portfolio .sorting{
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+    #portfolio .sorting > .item{
+        display: inline-block;
+        float: left;
+        width: 54px;
+        text-align: center;
+        position: relative;
+        /* padding: 0px 10px 15px; */
+        margin: 0 10px;
+        /* text-transform: uppercase; */
+        color: var(--fifth-color);
+    }
+        #portfolio .sorting > .item:hover,
+        #portfolio .sorting > .item.active{
+            color: var(--main-color);
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        #portfolio .sorting > .item.active:after,
+        #portfolio .sorting > .item:hover:after{
+            content: '';
+            background-color: var(--main-color);
+            height: 4px;
+            width: 4px;
+            border-radius: 50px;
+            position: absolute;
+            top: 20px;
+            right: 25px;
+        }
+
+
+#portfolio .all-pictures {
+    /* display: inline-block; */
+    float: left;
+}
+    #portfolio .all-pictures .picture{
+        /* display: inline-block; */
+        float: left;
+        height: 300px;
+        width: calc( (100% - 18px) / 3);
+        margin: 3px;
+
+        background-position: center;
+        background-size: cover;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+        #portfolio .all-pictures .picture:last-child,
+        #portfolio .all-pictures .picture:first-child{
+            width: calc( (100% - 9px) / 3 * 2);
+        }
+
+        @media(max-width: 1100px){
+            #portfolio .all-pictures .picture,
+            #portfolio .all-pictures .picture:last-child,
+            #portfolio .all-pictures .picture:first-child{
+                width: calc( (100% - 12px) / 2);
+            }
+        }
+    #portfolio .all-pictures .picture > .content {
+        background-color: #e9ecef;
+        position: relative;
+        /* opacity: 0.1; */
+        height: 280px;
+        width: calc(100% - 20px);
+        color: var(--secondary-color-text);
+        margin: 10px;
+        border-radius: 20px;
+        animation: fadeIn;
+        animation-duration: 0.3s;
+        animation-fill-mode: forwards;
+        transition: 1s;
+
+    }           
+                #portfolio .all-pictures .picture .content.hiddden{
+                    display: none;
+                }
+                #portfolio .all-pictures .picture:hover .hiddden{
+                    display: inline-block; 
+                }
+
+                #portfolio .all-pictures .picture > .content::after{
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        left: 170%;
+                        width: 100%;
+                        height: 100%;
+                        border: 1px solid #9c27b0;
+                        background: rgba(0, 0, 0, 0.1);
+                        transform: skewX(45deg);
+                        transition: all 1s;
+                        z-index: 1;
+                }
+
+                    #portfolio .all-pictures .picture > .content:hover::after{
+                        top: 0;
+                        left: -170%;
+                    }
+
+                @keyframes fadeIn{
+                    from{ background-color: #e9ecef00;}
+                    to{ background-color: #e9ecefb3;}
+                }
+
+        #portfolio .all-pictures .picture > .content > .texts > .title {
+            display: inline-block;
+            /* position: relative; */
+            width: 100%;
+            text-transform: uppercase;
+            font-size: 20px;
+            line-height: 20px;
+            color: black;
+            margin-top: 100px;
+        }
+        #portfolio .all-pictures .picture > .content > .texts {
+            
+        }
+        #portfolio .all-pictures .picture > .content > .texts > .tags {
+                text-transform: uppercase;
+                margin-top: 30px;
+        }
+        #portfolio .all-pictures .picture > .content > .texts > .icons {
+            display: inline-block;
+            /* position: relative; */
+            width: 100%;
+            margin-top: 40px;
+        }
+        #portfolio .all-pictures .picture > .content > .texts > .icons > a {
+            display: inline-block;
+            /* position: relative; */
+            margin: 20px;
+            color: var(--main-color);
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+        }
+            #portfolio .all-pictures .picture > .content > .texts > .icons > a:hover {
+                display: inline-block;
+                color: var(--fifth-color);
+                transition: 0.3s;
+                cursor: pointer;
+            }
